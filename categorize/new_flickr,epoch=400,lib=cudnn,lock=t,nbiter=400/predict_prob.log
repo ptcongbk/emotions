@@ -1,0 +1,19 @@
+[program started on Sun Dec 18 17:22:33 2016] 
+[command line arguments] 
+gpu 1 
+lib cudnn 
+inception model 
+data /root/sharedfolder/newflickr/test/ 
+inference true 
+model /root/sharedfolder/exp_output/new_flickr,epoch=400,lib=cudnn,lock=t,nbiter=400/ 
+retrain /root/sharedfolder/exp_output/new_flickr,epoch=400,lib=cudnn,lock=t,nbiter=400/ 
+[----------------------] 
+now testing 
+# Finish testing for awe 
+# Finish testing for anger 
+# Finish testing for amusement 
+# Finish testing for disgust 
+# Finish testing for contentment 
+# Finish testing for sadness 
+# Finish testing for excitement 
+# Finish testing for fear 

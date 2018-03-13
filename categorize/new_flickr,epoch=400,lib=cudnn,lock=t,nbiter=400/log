@@ -1,0 +1,6022 @@
+[program started on Sun Dec 18 14:05:17 2016] 
+[command line arguments] 
+nhu 0 
+seed 1111 
+rundir /root/sharedfolder/exp_output//new_flickr,epoch=400,lib=cudnn,lock=t,nbiter=400 
+distortion 1 
+data /root/sharedfolder/newflickr/train/ 
+save /root/sharedfolder/exp_output/ 
+gpu 1 
+lib cudnn 
+nbiter 400 
+lr 0.001 
+lock true 
+imgsz 320 
+inception model 
+epoch 400 
+exp new_flickr 
+mbsz 32 
+retrain  
+[----------------------] 
+[loading all training images bottlenecks into memory]: 1 samples per images 
+[loading all validation images bottlenecks into memory] 
+[iteration #1] 
+# current cost = 1.96858 
+# train accuracy = 28.46% 
+# ex/s = 594.41 
+--> now validation 
+# current acc for awe = 58.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 58.41% 
+# current acc for disgust = 46.05% 
+# current acc for contentment = 19.07% 
+# current acc for sadness = 42.05% 
+# current acc for excitement = 41.54% 
+# current acc for fear = 35.90% 
+# micro average = 40.74% 
+# macro average = 41.86% 
+[iteration #2] 
+# current cost = 1.74551 
+# train accuracy = 47.17% 
+# ex/s = 604.10 
+--> now validation 
+# current acc for awe = 60.71% 
+# current acc for anger = 30.56% 
+# current acc for amusement = 75.22% 
+# current acc for disgust = 61.84% 
+# current acc for contentment = 35.81% 
+# current acc for sadness = 38.64% 
+# current acc for excitement = 56.15% 
+# current acc for fear = 38.46% 
+# micro average = 51.02% 
+# macro average = 49.67% 
+[iteration #3] 
+# current cost = 1.59459 
+# train accuracy = 51.84% 
+# ex/s = 576.69 
+--> now validation 
+# current acc for awe = 63.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 76.99% 
+# current acc for disgust = 55.26% 
+# current acc for contentment = 40.93% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 55.38% 
+# current acc for fear = 38.46% 
+# micro average = 53.52% 
+# macro average = 51.81% 
+[iteration #4] 
+# current cost = 1.50105 
+# train accuracy = 54.96% 
+# ex/s = 558.38 
+--> now validation 
+# current acc for awe = 64.29% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 38.14% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 41.03% 
+# micro average = 54.60% 
+# macro average = 53.51% 
+[iteration #5] 
+# current cost = 1.41924 
+# train accuracy = 57.09% 
+# ex/s = 593.11 
+--> now validation 
+# current acc for awe = 64.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 44.65% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 30.77% 
+# micro average = 56.51% 
+# macro average = 54.05% 
+[iteration #6] 
+# current cost = 1.37926 
+# train accuracy = 56.54% 
+# ex/s = 581.72 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 46.98% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 38.46% 
+# micro average = 58.06% 
+# macro average = 55.70% 
+[iteration #7] 
+# current cost = 1.32459 
+# train accuracy = 58.35% 
+# ex/s = 556.41 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 44.19% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 35.90% 
+# micro average = 57.35% 
+# macro average = 54.94% 
+[iteration #8] 
+# current cost = 1.29765 
+# train accuracy = 58.20% 
+# ex/s = 586.39 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 45.12% 
+# current acc for sadness = 54.55% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 41.03% 
+# micro average = 57.47% 
+# macro average = 55.59% 
+[iteration #9] 
+# current cost = 1.27550 
+# train accuracy = 59.09% 
+# ex/s = 588.59 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 41.67% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 44.65% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 38.46% 
+# micro average = 57.47% 
+# macro average = 55.87% 
+[iteration #10] 
+# current cost = 1.25244 
+# train accuracy = 59.10% 
+# ex/s = 561.66 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 41.67% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 46.51% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 35.90% 
+# micro average = 58.30% 
+# macro average = 56.07% 
+[iteration #11] 
+# current cost = 1.22961 
+# train accuracy = 59.43% 
+# ex/s = 570.49 
+--> now validation 
+# current acc for awe = 71.43% 
+# current acc for anger = 41.67% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 64.47% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 41.03% 
+# micro average = 58.42% 
+# macro average = 56.32% 
+[iteration #12] 
+# current cost = 1.21594 
+# train accuracy = 60.09% 
+# ex/s = 585.36 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 41.67% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 64.47% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 55.68% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 38.46% 
+# micro average = 59.02% 
+# macro average = 56.58% 
+[iteration #13] 
+# current cost = 1.18417 
+# train accuracy = 60.96% 
+# ex/s = 589.68 
+--> now validation 
+# current acc for awe = 72.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 43.26% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 38.46% 
+# micro average = 57.35% 
+# macro average = 55.63% 
+[iteration #14] 
+# current cost = 1.17567 
+# train accuracy = 61.38% 
+# ex/s = 565.44 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 41.67% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 41.03% 
+# micro average = 59.02% 
+# macro average = 56.44% 
+[iteration #15] 
+# current cost = 1.16314 
+# train accuracy = 61.48% 
+# ex/s = 558.75 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 63.16% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 56.82% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 43.59% 
+# micro average = 59.14% 
+# macro average = 56.75% 
+[iteration #16] 
+# current cost = 1.14578 
+# train accuracy = 62.27% 
+# ex/s = 583.13 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 41.03% 
+# micro average = 59.14% 
+# macro average = 56.39% 
+[iteration #17] 
+# current cost = 1.13876 
+# train accuracy = 61.80% 
+# ex/s = 582.01 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 41.67% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 64.47% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.96% 
+[iteration #18] 
+# current cost = 1.12487 
+# train accuracy = 62.61% 
+# ex/s = 582.61 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 41.03% 
+# micro average = 58.54% 
+# macro average = 55.90% 
+[iteration #19] 
+# current cost = 1.11041 
+# train accuracy = 63.09% 
+# ex/s = 579.94 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 41.03% 
+# micro average = 58.66% 
+# macro average = 55.82% 
+[iteration #20] 
+# current cost = 1.12947 
+# train accuracy = 61.66% 
+# ex/s = 575.50 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.83% 
+[iteration #21] 
+# current cost = 1.10506 
+# train accuracy = 62.66% 
+# ex/s = 577.03 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 43.59% 
+# micro average = 59.26% 
+# macro average = 56.69% 
+[iteration #22] 
+# current cost = 1.10616 
+# train accuracy = 62.77% 
+# ex/s = 597.98 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 54.88% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 43.59% 
+# micro average = 59.50% 
+# macro average = 56.61% 
+[iteration #23] 
+# current cost = 1.09687 
+# train accuracy = 63.22% 
+# ex/s = 689.00 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 64.47% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 46.59% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 59.26% 
+# macro average = 56.80% 
+[iteration #24] 
+# current cost = 1.08181 
+# train accuracy = 63.73% 
+# ex/s = 672.13 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 54.55% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 41.03% 
+# micro average = 59.38% 
+# macro average = 56.84% 
+[iteration #25] 
+# current cost = 1.06277 
+# train accuracy = 64.57% 
+# ex/s = 591.69 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 68.46% 
+# current acc for fear = 46.15% 
+# micro average = 59.62% 
+# macro average = 57.02% 
+[iteration #26] 
+# current cost = 1.06554 
+# train accuracy = 63.99% 
+# ex/s = 577.26 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 54.88% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 43.59% 
+# micro average = 59.62% 
+# macro average = 56.91% 
+[iteration #27] 
+# current cost = 1.05303 
+# train accuracy = 64.80% 
+# ex/s = 601.23 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 48.37% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 58.42% 
+# macro average = 56.58% 
+[iteration #28] 
+# current cost = 1.04417 
+# train accuracy = 64.80% 
+# ex/s = 578.16 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.57% 
+[iteration #29] 
+# current cost = 1.05182 
+# train accuracy = 64.77% 
+# ex/s = 556.81 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 63.16% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 58.42% 
+# macro average = 56.50% 
+[iteration #30] 
+# current cost = 1.03243 
+# train accuracy = 66.06% 
+# ex/s = 588.54 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 59.02% 
+# macro average = 56.79% 
+[iteration #31] 
+# current cost = 1.03744 
+# train accuracy = 65.34% 
+# ex/s = 573.81 
+--> now validation 
+# current acc for awe = 65.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 54.42% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.58% 
+[iteration #32] 
+# current cost = 1.04269 
+# train accuracy = 64.88% 
+# ex/s = 578.14 
+--> now validation 
+# current acc for awe = 65.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.67% 
+[iteration #33] 
+# current cost = 1.02542 
+# train accuracy = 65.38% 
+# ex/s = 584.15 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 59.26% 
+# macro average = 57.04% 
+[iteration #34] 
+# current cost = 1.01908 
+# train accuracy = 66.15% 
+# ex/s = 593.58 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 59.38% 
+# macro average = 57.17% 
+[iteration #35] 
+# current cost = 1.01528 
+# train accuracy = 67.01% 
+# ex/s = 579.76 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 59.02% 
+# macro average = 57.13% 
+[iteration #36] 
+# current cost = 1.00436 
+# train accuracy = 66.45% 
+# ex/s = 566.56 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 58.66% 
+# macro average = 56.84% 
+[iteration #37] 
+# current cost = 1.02337 
+# train accuracy = 65.84% 
+# ex/s = 568.19 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 58.90% 
+# macro average = 56.77% 
+[iteration #38] 
+# current cost = 0.98511 
+# train accuracy = 67.88% 
+# ex/s = 565.80 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 59.02% 
+# macro average = 57.24% 
+[iteration #39] 
+# current cost = 0.97436 
+# train accuracy = 68.05% 
+# ex/s = 568.91 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 58.78% 
+# macro average = 56.75% 
+[iteration #40] 
+# current cost = 0.99474 
+# train accuracy = 67.35% 
+# ex/s = 567.25 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 54.42% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 59.38% 
+# macro average = 56.71% 
+[iteration #41] 
+# current cost = 1.00055 
+# train accuracy = 66.94% 
+# ex/s = 561.94 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 67.69% 
+# current acc for fear = 48.72% 
+# micro average = 59.50% 
+# macro average = 57.12% 
+[iteration #42] 
+# current cost = 0.99038 
+# train accuracy = 66.97% 
+# ex/s = 564.36 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 48.72% 
+# micro average = 59.50% 
+# macro average = 57.04% 
+[iteration #43] 
+# current cost = 0.98249 
+# train accuracy = 67.82% 
+# ex/s = 581.92 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 58.66% 
+# macro average = 56.55% 
+[iteration #44] 
+# current cost = 0.98075 
+# train accuracy = 67.84% 
+# ex/s = 595.87 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 58.90% 
+# macro average = 57.08% 
+[iteration #45] 
+# current cost = 0.97427 
+# train accuracy = 68.22% 
+# ex/s = 583.66 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 66.92% 
+# current acc for fear = 48.72% 
+# micro average = 59.02% 
+# macro average = 56.69% 
+[iteration #46] 
+# current cost = 0.96953 
+# train accuracy = 68.13% 
+# ex/s = 581.35 
+--> now validation 
+# current acc for awe = 64.29% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 55.35% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 59.74% 
+# macro average = 57.36% 
+[iteration #47] 
+# current cost = 0.96361 
+# train accuracy = 68.34% 
+# ex/s = 570.78 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 48.72% 
+# micro average = 59.26% 
+# macro average = 57.01% 
+[iteration #48] 
+# current cost = 0.96015 
+# train accuracy = 67.86% 
+# ex/s = 564.56 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 67.69% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.76% 
+[iteration #49] 
+# current cost = 0.95716 
+# train accuracy = 68.66% 
+# ex/s = 595.67 
+--> now validation 
+# current acc for awe = 64.29% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 57.16% 
+[iteration #50] 
+# current cost = 0.95731 
+# train accuracy = 68.83% 
+# ex/s = 581.78 
+--> now validation 
+# current acc for awe = 64.29% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 54.42% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 66.92% 
+# current acc for fear = 51.28% 
+# micro average = 59.74% 
+# macro average = 57.68% 
+[iteration #51] 
+# current cost = 0.93978 
+# train accuracy = 69.48% 
+# ex/s = 584.29 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 51.28% 
+# micro average = 59.50% 
+# macro average = 57.73% 
+[iteration #52] 
+# current cost = 0.95681 
+# train accuracy = 68.49% 
+# ex/s = 601.59 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 51.28% 
+# micro average = 59.26% 
+# macro average = 56.99% 
+[iteration #53] 
+# current cost = 0.95245 
+# train accuracy = 68.77% 
+# ex/s = 606.62 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 51.28% 
+# micro average = 59.38% 
+# macro average = 57.07% 
+[iteration #54] 
+# current cost = 0.95222 
+# train accuracy = 68.98% 
+# ex/s = 575.62 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 51.28% 
+# micro average = 59.14% 
+# macro average = 57.30% 
+[iteration #55] 
+# current cost = 0.94047 
+# train accuracy = 69.32% 
+# ex/s = 599.81 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 41.67% 
+# current acc for amusement = 66.37% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 59.02% 
+# macro average = 57.17% 
+[iteration #56] 
+# current cost = 0.92584 
+# train accuracy = 69.95% 
+# ex/s = 580.63 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 51.28% 
+# micro average = 58.78% 
+# macro average = 56.71% 
+[iteration #57] 
+# current cost = 0.95589 
+# train accuracy = 69.45% 
+# ex/s = 572.04 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 41.67% 
+# current acc for amusement = 65.49% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 46.05% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 67.69% 
+# current acc for fear = 51.28% 
+# micro average = 58.06% 
+# macro average = 57.19% 
+[iteration #58] 
+# current cost = 0.93044 
+# train accuracy = 69.07% 
+# ex/s = 575.11 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 48.72% 
+# micro average = 59.02% 
+# macro average = 57.37% 
+[iteration #59] 
+# current cost = 0.91744 
+# train accuracy = 69.54% 
+# ex/s = 584.77 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 59.38% 
+# macro average = 57.30% 
+[iteration #60] 
+# current cost = 0.92043 
+# train accuracy = 70.39% 
+# ex/s = 628.77 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 59.38% 
+# macro average = 57.55% 
+[iteration #61] 
+# current cost = 0.92824 
+# train accuracy = 69.34% 
+# ex/s = 621.10 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 59.98% 
+# macro average = 57.64% 
+[iteration #62] 
+# current cost = 0.91170 
+# train accuracy = 69.95% 
+# ex/s = 639.30 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 41.67% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 59.26% 
+# macro average = 57.34% 
+[iteration #63] 
+# current cost = 0.91626 
+# train accuracy = 69.75% 
+# ex/s = 592.92 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 58.66% 
+# macro average = 56.82% 
+[iteration #64] 
+# current cost = 0.90932 
+# train accuracy = 70.24% 
+# ex/s = 602.16 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 59.14% 
+# macro average = 57.17% 
+[iteration #65] 
+# current cost = 0.89858 
+# train accuracy = 70.71% 
+# ex/s = 565.47 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 59.50% 
+# macro average = 57.78% 
+[iteration #66] 
+# current cost = 0.92835 
+# train accuracy = 69.55% 
+# ex/s = 579.33 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 59.50% 
+# macro average = 57.19% 
+[iteration #67] 
+# current cost = 0.90103 
+# train accuracy = 70.94% 
+# ex/s = 586.78 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 59.14% 
+# macro average = 56.85% 
+[iteration #68] 
+# current cost = 0.90897 
+# train accuracy = 70.90% 
+# ex/s = 551.72 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 46.98% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 58.42% 
+# macro average = 56.77% 
+[iteration #69] 
+# current cost = 0.90800 
+# train accuracy = 70.23% 
+# ex/s = 573.18 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 47.44% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 66.92% 
+# current acc for fear = 48.72% 
+# micro average = 58.30% 
+# macro average = 56.71% 
+[iteration #70] 
+# current cost = 0.90023 
+# train accuracy = 70.29% 
+# ex/s = 618.24 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 67.69% 
+# current acc for fear = 48.72% 
+# micro average = 59.02% 
+# macro average = 56.98% 
+[iteration #71] 
+# current cost = 0.89614 
+# train accuracy = 70.47% 
+# ex/s = 609.01 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 41.67% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 59.38% 
+# macro average = 57.68% 
+[iteration #72] 
+# current cost = 0.88435 
+# train accuracy = 71.36% 
+# ex/s = 572.70 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 54.55% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 59.14% 
+# macro average = 57.35% 
+[iteration #73] 
+# current cost = 0.89238 
+# train accuracy = 70.50% 
+# ex/s = 580.16 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 59.02% 
+# macro average = 57.08% 
+[iteration #74] 
+# current cost = 0.90108 
+# train accuracy = 70.73% 
+# ex/s = 649.64 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 59.26% 
+# macro average = 56.92% 
+[iteration #75] 
+# current cost = 0.89209 
+# train accuracy = 71.39% 
+# ex/s = 688.70 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 68.14% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 59.50% 
+# macro average = 57.68% 
+[iteration #76] 
+# current cost = 0.89209 
+# train accuracy = 71.08% 
+# ex/s = 599.26 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 48.72% 
+# micro average = 59.38% 
+# macro average = 57.33% 
+[iteration #77] 
+# current cost = 0.88465 
+# train accuracy = 71.01% 
+# ex/s = 583.66 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 66.37% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 47.44% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 67.69% 
+# current acc for fear = 48.72% 
+# micro average = 58.54% 
+# macro average = 57.04% 
+[iteration #78] 
+# current cost = 0.88423 
+# train accuracy = 71.08% 
+# ex/s = 591.80 
+--> now validation 
+# current acc for awe = 62.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 66.92% 
+# current acc for fear = 48.72% 
+# micro average = 59.62% 
+# macro average = 57.63% 
+[iteration #79] 
+# current cost = 0.88415 
+# train accuracy = 71.24% 
+# ex/s = 572.45 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 48.72% 
+# micro average = 59.26% 
+# macro average = 57.26% 
+[iteration #80] 
+# current cost = 0.87704 
+# train accuracy = 71.76% 
+# ex/s = 581.69 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 54.55% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 59.14% 
+# macro average = 57.22% 
+[iteration #81] 
+# current cost = 0.86907 
+# train accuracy = 72.22% 
+# ex/s = 589.08 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 59.14% 
+# macro average = 57.20% 
+[iteration #82] 
+# current cost = 0.87040 
+# train accuracy = 72.13% 
+# ex/s = 581.16 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 59.38% 
+# macro average = 57.21% 
+[iteration #83] 
+# current cost = 0.85518 
+# train accuracy = 72.80% 
+# ex/s = 599.65 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 59.14% 
+# macro average = 57.04% 
+[iteration #84] 
+# current cost = 0.86205 
+# train accuracy = 72.72% 
+# ex/s = 585.16 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 59.50% 
+# macro average = 57.47% 
+[iteration #85] 
+# current cost = 0.86399 
+# train accuracy = 72.16% 
+# ex/s = 591.27 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 59.50% 
+# macro average = 57.57% 
+[iteration #86] 
+# current cost = 0.87567 
+# train accuracy = 71.94% 
+# ex/s = 564.45 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 48.72% 
+# micro average = 59.62% 
+# macro average = 57.26% 
+[iteration #87] 
+# current cost = 0.86311 
+# train accuracy = 72.92% 
+# ex/s = 583.83 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 59.38% 
+# macro average = 57.37% 
+[iteration #88] 
+# current cost = 0.84823 
+# train accuracy = 72.87% 
+# ex/s = 563.64 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 48.72% 
+# micro average = 59.62% 
+# macro average = 57.38% 
+[iteration #89] 
+# current cost = 0.85033 
+# train accuracy = 72.48% 
+# ex/s = 575.00 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 48.72% 
+# micro average = 59.86% 
+# macro average = 57.51% 
+[iteration #90] 
+# current cost = 0.85994 
+# train accuracy = 72.42% 
+# ex/s = 592.49 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 48.72% 
+# micro average = 60.22% 
+# macro average = 57.82% 
+[iteration #91] 
+# current cost = 0.85598 
+# train accuracy = 72.79% 
+# ex/s = 566.40 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 44.19% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 57.59% 
+# macro average = 56.30% 
+[iteration #92] 
+# current cost = 0.84100 
+# train accuracy = 73.20% 
+# ex/s = 615.68 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 58.90% 
+# macro average = 57.04% 
+[iteration #93] 
+# current cost = 0.83788 
+# train accuracy = 73.28% 
+# ex/s = 596.88 
+--> now validation 
+# current acc for awe = 65.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 67.69% 
+# current acc for fear = 48.72% 
+# micro average = 59.38% 
+# macro average = 57.28% 
+[iteration #94] 
+# current cost = 0.83903 
+# train accuracy = 72.91% 
+# ex/s = 596.22 
+--> now validation 
+# current acc for awe = 65.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 59.74% 
+# macro average = 57.59% 
+[iteration #95] 
+# current cost = 0.83071 
+# train accuracy = 73.64% 
+# ex/s = 590.16 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 66.92% 
+# current acc for fear = 48.72% 
+# micro average = 59.02% 
+# macro average = 56.95% 
+[iteration #96] 
+# current cost = 0.84030 
+# train accuracy = 72.58% 
+# ex/s = 585.12 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 46.98% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 58.90% 
+# macro average = 57.23% 
+[iteration #97] 
+# current cost = 0.83166 
+# train accuracy = 73.34% 
+# ex/s = 569.20 
+--> now validation 
+# current acc for awe = 65.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 59.50% 
+# macro average = 57.39% 
+[iteration #98] 
+# current cost = 0.84455 
+# train accuracy = 72.88% 
+# ex/s = 557.47 
+--> now validation 
+# current acc for awe = 63.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 55.81% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 60.33% 
+# macro average = 57.67% 
+[iteration #99] 
+# current cost = 0.83183 
+# train accuracy = 73.16% 
+# ex/s = 619.43 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 66.92% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 57.00% 
+[iteration #100] 
+# current cost = 0.84833 
+# train accuracy = 72.48% 
+# ex/s = 584.56 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.90% 
+[iteration #101] 
+# current cost = 0.82847 
+# train accuracy = 73.55% 
+# ex/s = 581.86 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 48.72% 
+# micro average = 58.90% 
+# macro average = 57.12% 
+[iteration #102] 
+# current cost = 0.82682 
+# train accuracy = 73.62% 
+# ex/s = 586.50 
+--> now validation 
+# current acc for awe = 64.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 55.81% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 48.72% 
+# micro average = 60.22% 
+# macro average = 57.55% 
+[iteration #103] 
+# current cost = 0.83044 
+# train accuracy = 73.49% 
+# ex/s = 565.07 
+--> now validation 
+# current acc for awe = 65.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 46.15% 
+# micro average = 59.74% 
+# macro average = 57.36% 
+[iteration #104] 
+# current cost = 0.83755 
+# train accuracy = 72.80% 
+# ex/s = 587.09 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 46.15% 
+# micro average = 59.74% 
+# macro average = 57.36% 
+[iteration #105] 
+# current cost = 0.82215 
+# train accuracy = 73.38% 
+# ex/s = 653.58 
+--> now validation 
+# current acc for awe = 65.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 60.10% 
+# macro average = 57.55% 
+[iteration #106] 
+# current cost = 0.82690 
+# train accuracy = 73.55% 
+# ex/s = 680.64 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 64.47% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 48.72% 
+# micro average = 58.90% 
+# macro average = 56.79% 
+[iteration #107] 
+# current cost = 0.80788 
+# train accuracy = 74.57% 
+# ex/s = 682.02 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 47.44% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.71% 
+[iteration #108] 
+# current cost = 0.80777 
+# train accuracy = 74.33% 
+# ex/s = 676.68 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 66.92% 
+# current acc for fear = 46.15% 
+# micro average = 58.54% 
+# macro average = 56.55% 
+[iteration #109] 
+# current cost = 0.81693 
+# train accuracy = 73.45% 
+# ex/s = 563.67 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 46.51% 
+# current acc for sadness = 54.55% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 59.02% 
+# macro average = 57.39% 
+[iteration #110] 
+# current cost = 0.80557 
+# train accuracy = 74.65% 
+# ex/s = 608.60 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 67.26% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 66.92% 
+# current acc for fear = 48.72% 
+# micro average = 58.54% 
+# macro average = 56.62% 
+[iteration #111] 
+# current cost = 0.82772 
+# train accuracy = 73.55% 
+# ex/s = 679.35 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 48.37% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 59.26% 
+# macro average = 57.38% 
+[iteration #112] 
+# current cost = 0.81954 
+# train accuracy = 73.82% 
+# ex/s = 590.41 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 46.15% 
+# micro average = 58.54% 
+# macro average = 56.58% 
+[iteration #113] 
+# current cost = 0.81900 
+# train accuracy = 74.17% 
+# ex/s = 569.41 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 57.04% 
+[iteration #114] 
+# current cost = 0.81724 
+# train accuracy = 73.77% 
+# ex/s = 596.06 
+--> now validation 
+# current acc for awe = 64.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 75.22% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 60.10% 
+# macro average = 57.53% 
+[iteration #115] 
+# current cost = 0.79351 
+# train accuracy = 75.10% 
+# ex/s = 577.90 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 76.11% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.96% 
+[iteration #116] 
+# current cost = 0.81287 
+# train accuracy = 74.30% 
+# ex/s = 574.79 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 46.98% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 58.42% 
+# macro average = 56.75% 
+[iteration #117] 
+# current cost = 0.80137 
+# train accuracy = 74.55% 
+# ex/s = 587.69 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 45.12% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 46.15% 
+# micro average = 58.30% 
+# macro average = 56.65% 
+[iteration #118] 
+# current cost = 0.80952 
+# train accuracy = 73.76% 
+# ex/s = 590.84 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 54.55% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.74% 
+# macro average = 57.46% 
+[iteration #119] 
+# current cost = 0.78947 
+# train accuracy = 75.06% 
+# ex/s = 580.61 
+--> now validation 
+# current acc for awe = 65.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 54.42% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 46.15% 
+# micro average = 59.98% 
+# macro average = 57.23% 
+[iteration #120] 
+# current cost = 0.79310 
+# train accuracy = 74.48% 
+# ex/s = 571.99 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 76.11% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 44.65% 
+# current acc for sadness = 54.55% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 57.16% 
+[iteration #121] 
+# current cost = 0.79855 
+# train accuracy = 74.64% 
+# ex/s = 577.75 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 57.13% 
+[iteration #122] 
+# current cost = 0.80538 
+# train accuracy = 74.32% 
+# ex/s = 571.46 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 46.98% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 57.06% 
+[iteration #123] 
+# current cost = 0.80244 
+# train accuracy = 74.62% 
+# ex/s = 598.52 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 76.11% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 57.22% 
+[iteration #124] 
+# current cost = 0.79132 
+# train accuracy = 74.91% 
+# ex/s = 594.14 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 54.55% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 46.15% 
+# micro average = 59.50% 
+# macro average = 57.40% 
+[iteration #125] 
+# current cost = 0.80788 
+# train accuracy = 74.22% 
+# ex/s = 591.09 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 75.22% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.50% 
+# macro average = 56.99% 
+[iteration #126] 
+# current cost = 0.78551 
+# train accuracy = 75.16% 
+# ex/s = 587.47 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 75.22% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.98% 
+# macro average = 57.51% 
+[iteration #127] 
+# current cost = 0.79839 
+# train accuracy = 74.91% 
+# ex/s = 641.66 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.93% 
+[iteration #128] 
+# current cost = 0.78158 
+# train accuracy = 75.22% 
+# ex/s = 689.14 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 75.22% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.50% 
+# macro average = 57.24% 
+[iteration #129] 
+# current cost = 0.78477 
+# train accuracy = 74.94% 
+# ex/s = 687.85 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.81% 
+[iteration #130] 
+# current cost = 0.78290 
+# train accuracy = 75.30% 
+# ex/s = 688.68 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 75.22% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.86% 
+# macro average = 57.38% 
+[iteration #131] 
+# current cost = 0.78219 
+# train accuracy = 75.11% 
+# ex/s = 687.86 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 38.89% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 60.10% 
+# macro average = 57.70% 
+[iteration #132] 
+# current cost = 0.79173 
+# train accuracy = 74.63% 
+# ex/s = 617.27 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.86% 
+[iteration #133] 
+# current cost = 0.78904 
+# train accuracy = 75.11% 
+# ex/s = 585.73 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.85% 
+[iteration #134] 
+# current cost = 0.78253 
+# train accuracy = 75.04% 
+# ex/s = 556.49 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.50% 
+# macro average = 57.24% 
+[iteration #135] 
+# current cost = 0.78099 
+# train accuracy = 75.30% 
+# ex/s = 591.03 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 59.62% 
+# macro average = 56.95% 
+[iteration #136] 
+# current cost = 0.77164 
+# train accuracy = 75.23% 
+# ex/s = 561.12 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.62% 
+# macro average = 57.13% 
+[iteration #137] 
+# current cost = 0.77735 
+# train accuracy = 75.27% 
+# ex/s = 563.25 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.93% 
+[iteration #138] 
+# current cost = 0.76860 
+# train accuracy = 75.70% 
+# ex/s = 602.56 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 46.15% 
+# micro average = 59.62% 
+# macro average = 57.27% 
+[iteration #139] 
+# current cost = 0.77300 
+# train accuracy = 75.59% 
+# ex/s = 567.46 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 48.37% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 58.54% 
+# macro average = 56.62% 
+[iteration #140] 
+# current cost = 0.76705 
+# train accuracy = 75.62% 
+# ex/s = 583.82 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.62% 
+# macro average = 57.30% 
+[iteration #141] 
+# current cost = 0.78385 
+# train accuracy = 74.67% 
+# ex/s = 583.90 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.87% 
+[iteration #142] 
+# current cost = 0.76854 
+# train accuracy = 75.59% 
+# ex/s = 565.92 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 57.05% 
+[iteration #143] 
+# current cost = 0.76145 
+# train accuracy = 75.75% 
+# ex/s = 601.37 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 66.15% 
+# current acc for fear = 46.15% 
+# micro average = 59.74% 
+# macro average = 57.36% 
+[iteration #144] 
+# current cost = 0.76742 
+# train accuracy = 75.81% 
+# ex/s = 560.82 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 68.46% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 57.13% 
+[iteration #145] 
+# current cost = 0.77392 
+# train accuracy = 75.01% 
+# ex/s = 610.32 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.54% 
+# macro average = 56.54% 
+[iteration #146] 
+# current cost = 0.75756 
+# train accuracy = 76.30% 
+# ex/s = 600.53 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.66% 
+[iteration #147] 
+# current cost = 0.76110 
+# train accuracy = 76.12% 
+# ex/s = 582.11 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 76.11% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.89% 
+[iteration #148] 
+# current cost = 0.74643 
+# train accuracy = 76.55% 
+# ex/s = 583.42 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 58.18% 
+# macro average = 56.21% 
+[iteration #149] 
+# current cost = 0.76098 
+# train accuracy = 75.47% 
+# ex/s = 576.34 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.62% 
+[iteration #150] 
+# current cost = 0.76528 
+# train accuracy = 75.96% 
+# ex/s = 564.54 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.93% 
+[iteration #151] 
+# current cost = 0.74541 
+# train accuracy = 76.41% 
+# ex/s = 578.33 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.73% 
+[iteration #152] 
+# current cost = 0.76409 
+# train accuracy = 75.88% 
+# ex/s = 579.11 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.83% 
+[iteration #153] 
+# current cost = 0.77066 
+# train accuracy = 75.40% 
+# ex/s = 600.92 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 46.98% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 58.30% 
+# macro average = 56.52% 
+[iteration #154] 
+# current cost = 0.75980 
+# train accuracy = 75.88% 
+# ex/s = 584.97 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 75.22% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 54.42% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 46.15% 
+# micro average = 59.62% 
+# macro average = 56.98% 
+[iteration #155] 
+# current cost = 0.76122 
+# train accuracy = 75.95% 
+# ex/s = 593.72 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.54% 
+# macro average = 56.64% 
+[iteration #156] 
+# current cost = 0.75285 
+# train accuracy = 76.60% 
+# ex/s = 616.27 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 57.13% 
+[iteration #157] 
+# current cost = 0.74978 
+# train accuracy = 76.63% 
+# ex/s = 553.67 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 76.11% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 57.06% 
+[iteration #158] 
+# current cost = 0.75161 
+# train accuracy = 76.23% 
+# ex/s = 578.58 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.50% 
+# macro average = 57.15% 
+[iteration #159] 
+# current cost = 0.76039 
+# train accuracy = 75.78% 
+# ex/s = 581.68 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 46.51% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 57.71% 
+# macro average = 56.15% 
+[iteration #160] 
+# current cost = 0.74335 
+# train accuracy = 76.16% 
+# ex/s = 572.18 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.92% 
+[iteration #161] 
+# current cost = 0.74949 
+# train accuracy = 76.49% 
+# ex/s = 561.60 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.80% 
+[iteration #162] 
+# current cost = 0.75563 
+# train accuracy = 76.27% 
+# ex/s = 580.39 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.74% 
+# macro average = 57.32% 
+[iteration #163] 
+# current cost = 0.74161 
+# train accuracy = 75.98% 
+# ex/s = 594.54 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.93% 
+[iteration #164] 
+# current cost = 0.74235 
+# train accuracy = 76.51% 
+# ex/s = 563.49 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.62% 
+[iteration #165] 
+# current cost = 0.73284 
+# train accuracy = 77.20% 
+# ex/s = 588.19 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.92% 
+[iteration #166] 
+# current cost = 0.74776 
+# train accuracy = 76.46% 
+# ex/s = 581.06 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.81% 
+[iteration #167] 
+# current cost = 0.73396 
+# train accuracy = 76.91% 
+# ex/s = 609.03 
+--> now validation 
+# current acc for awe = 71.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 57.12% 
+[iteration #168] 
+# current cost = 0.74333 
+# train accuracy = 76.96% 
+# ex/s = 605.10 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.80% 
+[iteration #169] 
+# current cost = 0.74181 
+# train accuracy = 76.73% 
+# ex/s = 610.14 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.91% 
+[iteration #170] 
+# current cost = 0.73359 
+# train accuracy = 76.88% 
+# ex/s = 587.58 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.54% 
+# macro average = 56.51% 
+[iteration #171] 
+# current cost = 0.73139 
+# train accuracy = 77.16% 
+# ex/s = 583.05 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 46.15% 
+# micro average = 59.62% 
+# macro average = 57.04% 
+[iteration #172] 
+# current cost = 0.75027 
+# train accuracy = 76.32% 
+# ex/s = 596.40 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.89% 
+[iteration #173] 
+# current cost = 0.72612 
+# train accuracy = 77.71% 
+# ex/s = 619.79 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 46.15% 
+# micro average = 60.10% 
+# macro average = 57.49% 
+[iteration #174] 
+# current cost = 0.74292 
+# train accuracy = 76.50% 
+# ex/s = 564.87 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.87% 
+[iteration #175] 
+# current cost = 0.74208 
+# train accuracy = 76.03% 
+# ex/s = 617.87 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 75.22% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.98% 
+# macro average = 57.39% 
+[iteration #176] 
+# current cost = 0.72857 
+# train accuracy = 77.08% 
+# ex/s = 567.76 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 57.08% 
+[iteration #177] 
+# current cost = 0.73338 
+# train accuracy = 76.54% 
+# ex/s = 568.91 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.76% 
+[iteration #178] 
+# current cost = 0.72579 
+# train accuracy = 77.38% 
+# ex/s = 573.96 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 59.86% 
+# macro average = 57.16% 
+[iteration #179] 
+# current cost = 0.73363 
+# train accuracy = 76.73% 
+# ex/s = 576.64 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.62% 
+# macro average = 57.11% 
+[iteration #180] 
+# current cost = 0.72648 
+# train accuracy = 77.30% 
+# ex/s = 569.30 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.91% 
+[iteration #181] 
+# current cost = 0.73126 
+# train accuracy = 77.13% 
+# ex/s = 563.03 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 75.22% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.85% 
+[iteration #182] 
+# current cost = 0.71556 
+# train accuracy = 77.46% 
+# ex/s = 582.44 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 56.68% 
+[iteration #183] 
+# current cost = 0.72816 
+# train accuracy = 76.60% 
+# ex/s = 562.26 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.95% 
+[iteration #184] 
+# current cost = 0.73447 
+# train accuracy = 76.62% 
+# ex/s = 570.00 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 47.44% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 66.92% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 57.19% 
+[iteration #185] 
+# current cost = 0.71929 
+# train accuracy = 77.34% 
+# ex/s = 556.89 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 48.37% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.54% 
+# macro average = 56.80% 
+[iteration #186] 
+# current cost = 0.71609 
+# train accuracy = 77.71% 
+# ex/s = 573.16 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.67% 
+[iteration #187] 
+# current cost = 0.72903 
+# train accuracy = 77.02% 
+# ex/s = 634.40 
+--> now validation 
+# current acc for awe = 71.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 57.20% 
+[iteration #188] 
+# current cost = 0.72119 
+# train accuracy = 76.83% 
+# ex/s = 610.24 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.69% 
+[iteration #189] 
+# current cost = 0.73885 
+# train accuracy = 76.34% 
+# ex/s = 579.19 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.57% 
+[iteration #190] 
+# current cost = 0.71555 
+# train accuracy = 77.17% 
+# ex/s = 588.13 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 57.16% 
+[iteration #191] 
+# current cost = 0.72709 
+# train accuracy = 76.95% 
+# ex/s = 619.37 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 48.37% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 56.89% 
+[iteration #192] 
+# current cost = 0.72056 
+# train accuracy = 77.55% 
+# ex/s = 595.43 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.89% 
+[iteration #193] 
+# current cost = 0.71837 
+# train accuracy = 77.45% 
+# ex/s = 608.11 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.88% 
+[iteration #194] 
+# current cost = 0.71972 
+# train accuracy = 77.26% 
+# ex/s = 571.37 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.78% 
+[iteration #195] 
+# current cost = 0.70576 
+# train accuracy = 77.69% 
+# ex/s = 591.53 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 47.44% 
+# current acc for sadness = 54.55% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 57.31% 
+[iteration #196] 
+# current cost = 0.72050 
+# train accuracy = 76.95% 
+# ex/s = 573.88 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.93% 
+[iteration #197] 
+# current cost = 0.71305 
+# train accuracy = 77.40% 
+# ex/s = 563.58 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 57.02% 
+[iteration #198] 
+# current cost = 0.70558 
+# train accuracy = 77.73% 
+# ex/s = 550.76 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.62% 
+# macro average = 57.25% 
+[iteration #199] 
+# current cost = 0.70914 
+# train accuracy = 77.91% 
+# ex/s = 575.02 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.76% 
+[iteration #200] 
+# current cost = 0.72324 
+# train accuracy = 76.73% 
+# ex/s = 560.95 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 75.22% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 60.22% 
+# macro average = 57.63% 
+[iteration #201] 
+# current cost = 0.72037 
+# train accuracy = 76.55% 
+# ex/s = 576.06 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.65% 
+[iteration #202] 
+# current cost = 0.70988 
+# train accuracy = 77.47% 
+# ex/s = 568.29 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 57.12% 
+[iteration #203] 
+# current cost = 0.71448 
+# train accuracy = 77.84% 
+# ex/s = 582.65 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.63% 
+[iteration #204] 
+# current cost = 0.70171 
+# train accuracy = 77.73% 
+# ex/s = 577.33 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.62% 
+# macro average = 57.04% 
+[iteration #205] 
+# current cost = 0.71442 
+# train accuracy = 77.48% 
+# ex/s = 598.90 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 54.42% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.25% 
+[iteration #206] 
+# current cost = 0.69884 
+# train accuracy = 78.07% 
+# ex/s = 570.89 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.54% 
+[iteration #207] 
+# current cost = 0.69707 
+# train accuracy = 77.89% 
+# ex/s = 565.47 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.68% 
+[iteration #208] 
+# current cost = 0.70150 
+# train accuracy = 77.77% 
+# ex/s = 580.39 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.52% 
+[iteration #209] 
+# current cost = 0.69415 
+# train accuracy = 78.27% 
+# ex/s = 563.37 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 47.44% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.42% 
+# macro average = 56.54% 
+[iteration #210] 
+# current cost = 0.70044 
+# train accuracy = 78.33% 
+# ex/s = 593.70 
+--> now validation 
+# current acc for awe = 71.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.50% 
+# macro average = 57.13% 
+[iteration #211] 
+# current cost = 0.69862 
+# train accuracy = 78.00% 
+# ex/s = 576.17 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 57.12% 
+[iteration #212] 
+# current cost = 0.69758 
+# train accuracy = 78.14% 
+# ex/s = 579.76 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 57.14% 
+[iteration #213] 
+# current cost = 0.70639 
+# train accuracy = 77.52% 
+# ex/s = 577.88 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 54.88% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.50% 
+# macro average = 56.75% 
+[iteration #214] 
+# current cost = 0.70566 
+# train accuracy = 77.95% 
+# ex/s = 576.30 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.62% 
+# macro average = 56.93% 
+[iteration #215] 
+# current cost = 0.70666 
+# train accuracy = 77.96% 
+# ex/s = 571.10 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.77% 
+[iteration #216] 
+# current cost = 0.69961 
+# train accuracy = 78.14% 
+# ex/s = 594.07 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 46.98% 
+# current acc for sadness = 54.55% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 57.09% 
+[iteration #217] 
+# current cost = 0.69771 
+# train accuracy = 77.89% 
+# ex/s = 576.16 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.50% 
+# macro average = 57.03% 
+[iteration #218] 
+# current cost = 0.70288 
+# train accuracy = 77.55% 
+# ex/s = 607.72 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 56.53% 
+[iteration #219] 
+# current cost = 0.69732 
+# train accuracy = 77.98% 
+# ex/s = 583.25 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 55.35% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.50% 
+# macro average = 56.69% 
+[iteration #220] 
+# current cost = 0.71044 
+# train accuracy = 77.45% 
+# ex/s = 573.21 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.79% 
+[iteration #221] 
+# current cost = 0.69428 
+# train accuracy = 78.12% 
+# ex/s = 575.81 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 74.34% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.49% 
+[iteration #222] 
+# current cost = 0.68731 
+# train accuracy = 78.52% 
+# ex/s = 581.69 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.86% 
+[iteration #223] 
+# current cost = 0.69149 
+# train accuracy = 78.72% 
+# ex/s = 583.90 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.87% 
+[iteration #224] 
+# current cost = 0.69748 
+# train accuracy = 78.02% 
+# ex/s = 581.28 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 56.55% 
+[iteration #225] 
+# current cost = 0.68810 
+# train accuracy = 78.17% 
+# ex/s = 584.46 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 57.27% 
+[iteration #226] 
+# current cost = 0.68914 
+# train accuracy = 78.30% 
+# ex/s = 588.23 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.86% 
+# macro average = 57.32% 
+[iteration #227] 
+# current cost = 0.68957 
+# train accuracy = 78.48% 
+# ex/s = 575.95 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.93% 
+[iteration #228] 
+# current cost = 0.68859 
+# train accuracy = 78.21% 
+# ex/s = 572.63 
+--> now validation 
+# current acc for awe = 64.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 54.55% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.69% 
+[iteration #229] 
+# current cost = 0.68793 
+# train accuracy = 78.86% 
+# ex/s = 607.13 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.45% 
+[iteration #230] 
+# current cost = 0.68574 
+# train accuracy = 78.21% 
+# ex/s = 602.42 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 56.50% 
+[iteration #231] 
+# current cost = 0.68830 
+# train accuracy = 78.10% 
+# ex/s = 616.73 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.74% 
+# macro average = 57.12% 
+[iteration #232] 
+# current cost = 0.68221 
+# train accuracy = 78.83% 
+# ex/s = 587.21 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 57.02% 
+[iteration #233] 
+# current cost = 0.68731 
+# train accuracy = 77.98% 
+# ex/s = 624.37 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.89% 
+[iteration #234] 
+# current cost = 0.68473 
+# train accuracy = 78.92% 
+# ex/s = 581.21 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.87% 
+[iteration #235] 
+# current cost = 0.68205 
+# train accuracy = 78.45% 
+# ex/s = 581.72 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.72% 
+[iteration #236] 
+# current cost = 0.69029 
+# train accuracy = 78.30% 
+# ex/s = 591.99 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 57.23% 
+[iteration #237] 
+# current cost = 0.68644 
+# train accuracy = 78.60% 
+# ex/s = 576.41 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 48.37% 
+# current acc for sadness = 53.41% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 57.18% 
+[iteration #238] 
+# current cost = 0.67539 
+# train accuracy = 78.55% 
+# ex/s = 563.97 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.50% 
+# macro average = 57.08% 
+[iteration #239] 
+# current cost = 0.66931 
+# train accuracy = 79.45% 
+# ex/s = 586.25 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 57.03% 
+[iteration #240] 
+# current cost = 0.67470 
+# train accuracy = 78.80% 
+# ex/s = 588.00 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.83% 
+[iteration #241] 
+# current cost = 0.67906 
+# train accuracy = 78.62% 
+# ex/s = 590.72 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.74% 
+# macro average = 57.17% 
+[iteration #242] 
+# current cost = 0.67353 
+# train accuracy = 78.21% 
+# ex/s = 645.93 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.94% 
+[iteration #243] 
+# current cost = 0.68337 
+# train accuracy = 78.46% 
+# ex/s = 587.05 
+--> now validation 
+# current acc for awe = 64.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.52% 
+[iteration #244] 
+# current cost = 0.68675 
+# train accuracy = 78.16% 
+# ex/s = 604.79 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.50% 
+# macro average = 56.96% 
+[iteration #245] 
+# current cost = 0.66577 
+# train accuracy = 79.09% 
+# ex/s = 569.27 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 48.37% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.63% 
+[iteration #246] 
+# current cost = 0.67913 
+# train accuracy = 78.77% 
+# ex/s = 603.55 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 57.08% 
+[iteration #247] 
+# current cost = 0.68347 
+# train accuracy = 78.22% 
+# ex/s = 582.26 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.67% 
+[iteration #248] 
+# current cost = 0.68974 
+# train accuracy = 78.03% 
+# ex/s = 585.57 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 48.72% 
+# micro average = 59.14% 
+# macro average = 56.58% 
+[iteration #249] 
+# current cost = 0.66483 
+# train accuracy = 79.55% 
+# ex/s = 582.77 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.55% 
+[iteration #250] 
+# current cost = 0.67008 
+# train accuracy = 78.97% 
+# ex/s = 581.66 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 48.72% 
+# micro average = 59.38% 
+# macro average = 56.93% 
+[iteration #251] 
+# current cost = 0.67390 
+# train accuracy = 79.25% 
+# ex/s = 579.25 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.62% 
+[iteration #252] 
+# current cost = 0.66419 
+# train accuracy = 79.57% 
+# ex/s = 605.75 
+--> now validation 
+# current acc for awe = 64.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.18% 
+# macro average = 55.93% 
+[iteration #253] 
+# current cost = 0.67006 
+# train accuracy = 79.01% 
+# ex/s = 583.98 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.39% 
+[iteration #254] 
+# current cost = 0.65967 
+# train accuracy = 80.28% 
+# ex/s = 602.34 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.14% 
+[iteration #255] 
+# current cost = 0.66790 
+# train accuracy = 79.46% 
+# ex/s = 688.63 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.42% 
+# macro average = 56.43% 
+[iteration #256] 
+# current cost = 0.67324 
+# train accuracy = 78.60% 
+# ex/s = 614.47 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 56.54% 
+[iteration #257] 
+# current cost = 0.65001 
+# train accuracy = 79.94% 
+# ex/s = 570.53 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.93% 
+[iteration #258] 
+# current cost = 0.67323 
+# train accuracy = 79.17% 
+# ex/s = 557.67 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.54% 
+# macro average = 56.43% 
+[iteration #259] 
+# current cost = 0.66679 
+# train accuracy = 79.26% 
+# ex/s = 590.44 
+--> now validation 
+# current acc for awe = 65.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.68% 
+[iteration #260] 
+# current cost = 0.66633 
+# train accuracy = 79.20% 
+# ex/s = 688.67 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.73% 
+[iteration #261] 
+# current cost = 0.66110 
+# train accuracy = 79.70% 
+# ex/s = 687.31 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.76% 
+[iteration #262] 
+# current cost = 0.67296 
+# train accuracy = 79.07% 
+# ex/s = 663.88 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.47% 
+[iteration #263] 
+# current cost = 0.66905 
+# train accuracy = 79.84% 
+# ex/s = 572.30 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 56.79% 
+[iteration #264] 
+# current cost = 0.67111 
+# train accuracy = 79.05% 
+# ex/s = 591.48 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 58.42% 
+# macro average = 56.34% 
+[iteration #265] 
+# current cost = 0.65498 
+# train accuracy = 79.88% 
+# ex/s = 575.05 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 56.68% 
+[iteration #266] 
+# current cost = 0.65296 
+# train accuracy = 80.07% 
+# ex/s = 604.86 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.87% 
+[iteration #267] 
+# current cost = 0.65327 
+# train accuracy = 79.85% 
+# ex/s = 569.70 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.64% 
+[iteration #268] 
+# current cost = 0.66819 
+# train accuracy = 79.56% 
+# ex/s = 571.35 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 43.59% 
+# micro average = 59.38% 
+# macro average = 56.59% 
+[iteration #269] 
+# current cost = 0.65537 
+# train accuracy = 79.64% 
+# ex/s = 579.58 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.54% 
+[iteration #270] 
+# current cost = 0.65359 
+# train accuracy = 80.01% 
+# ex/s = 575.87 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 43.59% 
+# micro average = 58.90% 
+# macro average = 56.27% 
+[iteration #271] 
+# current cost = 0.64663 
+# train accuracy = 80.16% 
+# ex/s = 608.51 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 56.45% 
+[iteration #272] 
+# current cost = 0.66924 
+# train accuracy = 79.07% 
+# ex/s = 594.89 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.53% 
+[iteration #273] 
+# current cost = 0.65635 
+# train accuracy = 79.52% 
+# ex/s = 573.30 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.55% 
+[iteration #274] 
+# current cost = 0.64977 
+# train accuracy = 80.02% 
+# ex/s = 563.93 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 48.72% 
+# micro average = 59.02% 
+# macro average = 56.80% 
+[iteration #275] 
+# current cost = 0.64964 
+# train accuracy = 80.17% 
+# ex/s = 577.13 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 56.41% 
+[iteration #276] 
+# current cost = 0.65495 
+# train accuracy = 79.92% 
+# ex/s = 575.86 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 48.72% 
+# micro average = 58.66% 
+# macro average = 56.38% 
+[iteration #277] 
+# current cost = 0.65430 
+# train accuracy = 79.73% 
+# ex/s = 586.84 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.53% 
+[iteration #278] 
+# current cost = 0.63892 
+# train accuracy = 80.69% 
+# ex/s = 581.38 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 48.72% 
+# micro average = 58.66% 
+# macro average = 56.71% 
+[iteration #279] 
+# current cost = 0.64998 
+# train accuracy = 80.08% 
+# ex/s = 578.51 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 64.47% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.42% 
+# macro average = 55.79% 
+[iteration #280] 
+# current cost = 0.64085 
+# train accuracy = 80.71% 
+# ex/s = 581.22 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 48.72% 
+# micro average = 59.62% 
+# macro average = 57.12% 
+[iteration #281] 
+# current cost = 0.64151 
+# train accuracy = 80.16% 
+# ex/s = 574.99 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.72% 
+[iteration #282] 
+# current cost = 0.64894 
+# train accuracy = 80.16% 
+# ex/s = 598.35 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.65% 
+[iteration #283] 
+# current cost = 0.65318 
+# train accuracy = 80.45% 
+# ex/s = 587.93 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.90% 
+[iteration #284] 
+# current cost = 0.64474 
+# train accuracy = 80.01% 
+# ex/s = 599.87 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 73.45% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 43.59% 
+# micro average = 58.66% 
+# macro average = 56.26% 
+[iteration #285] 
+# current cost = 0.64375 
+# train accuracy = 80.49% 
+# ex/s = 562.91 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 48.72% 
+# micro average = 59.02% 
+# macro average = 57.02% 
+[iteration #286] 
+# current cost = 0.65126 
+# train accuracy = 79.98% 
+# ex/s = 606.33 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 43.59% 
+# micro average = 58.42% 
+# macro average = 56.13% 
+[iteration #287] 
+# current cost = 0.65042 
+# train accuracy = 79.84% 
+# ex/s = 589.19 
+--> now validation 
+# current acc for awe = 71.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 43.59% 
+# micro average = 58.78% 
+# macro average = 56.31% 
+[iteration #288] 
+# current cost = 0.65519 
+# train accuracy = 80.12% 
+# ex/s = 574.00 
+--> now validation 
+# current acc for awe = 72.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 48.37% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 43.59% 
+# micro average = 58.54% 
+# macro average = 55.94% 
+[iteration #289] 
+# current cost = 0.64757 
+# train accuracy = 80.32% 
+# ex/s = 584.31 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.17% 
+[iteration #290] 
+# current cost = 0.65198 
+# train accuracy = 80.04% 
+# ex/s = 595.21 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 58.42% 
+# macro average = 56.24% 
+[iteration #291] 
+# current cost = 0.64511 
+# train accuracy = 80.13% 
+# ex/s = 564.68 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.26% 
+[iteration #292] 
+# current cost = 0.64570 
+# train accuracy = 80.23% 
+# ex/s = 590.10 
+--> now validation 
+# current acc for awe = 71.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 43.59% 
+# micro average = 58.66% 
+# macro average = 56.38% 
+[iteration #293] 
+# current cost = 0.64751 
+# train accuracy = 80.26% 
+# ex/s = 589.16 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 58.42% 
+# macro average = 56.01% 
+[iteration #294] 
+# current cost = 0.65024 
+# train accuracy = 79.78% 
+# ex/s = 594.10 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 69.03% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 43.59% 
+# micro average = 58.54% 
+# macro average = 55.51% 
+[iteration #295] 
+# current cost = 0.64787 
+# train accuracy = 80.15% 
+# ex/s = 587.00 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 57.69% 
+# current acc for fear = 46.15% 
+# micro average = 58.18% 
+# macro average = 56.09% 
+[iteration #296] 
+# current cost = 0.64417 
+# train accuracy = 80.23% 
+# ex/s = 575.03 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 43.59% 
+# micro average = 58.90% 
+# macro average = 56.49% 
+[iteration #297] 
+# current cost = 0.64075 
+# train accuracy = 80.27% 
+# ex/s = 585.50 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 58.54% 
+# macro average = 56.33% 
+[iteration #298] 
+# current cost = 0.64094 
+# train accuracy = 80.41% 
+# ex/s = 580.88 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 58.42% 
+# macro average = 56.21% 
+[iteration #299] 
+# current cost = 0.64039 
+# train accuracy = 80.68% 
+# ex/s = 618.47 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 46.98% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 57.83% 
+# macro average = 55.97% 
+[iteration #300] 
+# current cost = 0.63513 
+# train accuracy = 80.88% 
+# ex/s = 563.12 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 58.42% 
+# macro average = 55.93% 
+[iteration #301] 
+# current cost = 0.63358 
+# train accuracy = 80.54% 
+# ex/s = 572.86 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 43.59% 
+# micro average = 58.06% 
+# macro average = 55.79% 
+[iteration #302] 
+# current cost = 0.64789 
+# train accuracy = 80.24% 
+# ex/s = 588.00 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 58.18% 
+# macro average = 56.09% 
+[iteration #303] 
+# current cost = 0.62780 
+# train accuracy = 80.82% 
+# ex/s = 589.96 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 43.59% 
+# micro average = 58.30% 
+# macro average = 56.06% 
+[iteration #304] 
+# current cost = 0.63418 
+# train accuracy = 80.62% 
+# ex/s = 572.39 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 48.72% 
+# micro average = 58.78% 
+# macro average = 56.36% 
+[iteration #305] 
+# current cost = 0.63332 
+# train accuracy = 80.79% 
+# ex/s = 597.98 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 46.15% 
+# micro average = 58.54% 
+# macro average = 55.93% 
+[iteration #306] 
+# current cost = 0.63738 
+# train accuracy = 80.68% 
+# ex/s = 597.07 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 58.66% 
+# macro average = 56.12% 
+[iteration #307] 
+# current cost = 0.64264 
+# train accuracy = 80.49% 
+# ex/s = 593.17 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.10% 
+[iteration #308] 
+# current cost = 0.63499 
+# train accuracy = 80.94% 
+# ex/s = 567.88 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 48.72% 
+# micro average = 58.78% 
+# macro average = 56.67% 
+[iteration #309] 
+# current cost = 0.63261 
+# train accuracy = 81.02% 
+# ex/s = 588.11 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 57.69% 
+# current acc for fear = 43.59% 
+# micro average = 58.06% 
+# macro average = 55.72% 
+[iteration #310] 
+# current cost = 0.64321 
+# train accuracy = 80.30% 
+# ex/s = 578.85 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 46.98% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 43.59% 
+# micro average = 58.06% 
+# macro average = 56.02% 
+[iteration #311] 
+# current cost = 0.63214 
+# train accuracy = 81.02% 
+# ex/s = 570.01 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 57.69% 
+# current acc for fear = 43.59% 
+# micro average = 58.18% 
+# macro average = 55.82% 
+[iteration #312] 
+# current cost = 0.63014 
+# train accuracy = 80.58% 
+# ex/s = 613.77 
+--> now validation 
+# current acc for awe = 72.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.30% 
+# macro average = 55.94% 
+[iteration #313] 
+# current cost = 0.63630 
+# train accuracy = 80.71% 
+# ex/s = 572.83 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 58.54% 
+# macro average = 56.16% 
+[iteration #314] 
+# current cost = 0.62529 
+# train accuracy = 81.16% 
+# ex/s = 574.94 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.49% 
+[iteration #315] 
+# current cost = 0.62772 
+# train accuracy = 81.05% 
+# ex/s = 570.39 
+--> now validation 
+# current acc for awe = 71.43% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 69.91% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.35% 
+[iteration #316] 
+# current cost = 0.62047 
+# train accuracy = 81.23% 
+# ex/s = 560.23 
+--> now validation 
+# current acc for awe = 65.71% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 48.72% 
+# micro average = 58.78% 
+# macro average = 56.51% 
+[iteration #317] 
+# current cost = 0.62435 
+# train accuracy = 81.21% 
+# ex/s = 602.86 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.17% 
+[iteration #318] 
+# current cost = 0.63047 
+# train accuracy = 80.63% 
+# ex/s = 581.49 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.67% 
+[iteration #319] 
+# current cost = 0.63106 
+# train accuracy = 80.86% 
+# ex/s = 674.97 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 58.42% 
+# macro average = 55.96% 
+[iteration #320] 
+# current cost = 0.61686 
+# train accuracy = 81.33% 
+# ex/s = 630.56 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 57.69% 
+# current acc for fear = 43.59% 
+# micro average = 58.66% 
+# macro average = 56.00% 
+[iteration #321] 
+# current cost = 0.62024 
+# train accuracy = 81.16% 
+# ex/s = 584.53 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 57.69% 
+# current acc for fear = 43.59% 
+# micro average = 58.18% 
+# macro average = 55.76% 
+[iteration #322] 
+# current cost = 0.63136 
+# train accuracy = 80.62% 
+# ex/s = 595.69 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 56.26% 
+[iteration #323] 
+# current cost = 0.63496 
+# train accuracy = 80.94% 
+# ex/s = 583.49 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.39% 
+[iteration #324] 
+# current cost = 0.61450 
+# train accuracy = 81.61% 
+# ex/s = 583.37 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 57.69% 
+# current acc for fear = 43.59% 
+# micro average = 57.83% 
+# macro average = 55.68% 
+[iteration #325] 
+# current cost = 0.62867 
+# train accuracy = 81.16% 
+# ex/s = 581.28 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 57.95% 
+# macro average = 55.39% 
+[iteration #326] 
+# current cost = 0.61815 
+# train accuracy = 80.93% 
+# ex/s = 584.04 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.24% 
+[iteration #327] 
+# current cost = 0.62289 
+# train accuracy = 81.02% 
+# ex/s = 564.58 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.42% 
+# macro average = 55.81% 
+[iteration #328] 
+# current cost = 0.62321 
+# train accuracy = 80.87% 
+# ex/s = 586.81 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 43.59% 
+# micro average = 58.66% 
+# macro average = 56.35% 
+[iteration #329] 
+# current cost = 0.62372 
+# train accuracy = 81.33% 
+# ex/s = 588.45 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 54.42% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 43.59% 
+# micro average = 59.38% 
+# macro average = 56.41% 
+[iteration #330] 
+# current cost = 0.61767 
+# train accuracy = 81.41% 
+# ex/s = 575.87 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 43.59% 
+# micro average = 58.42% 
+# macro average = 56.01% 
+[iteration #331] 
+# current cost = 0.61649 
+# train accuracy = 81.66% 
+# ex/s = 599.79 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 72.57% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 54.42% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.17% 
+[iteration #332] 
+# current cost = 0.62967 
+# train accuracy = 80.59% 
+# ex/s = 582.99 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 64.47% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 59.38% 
+# macro average = 56.26% 
+[iteration #333] 
+# current cost = 0.62288 
+# train accuracy = 81.30% 
+# ex/s = 593.86 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.30% 
+# macro average = 55.79% 
+[iteration #334] 
+# current cost = 0.60725 
+# train accuracy = 81.63% 
+# ex/s = 617.58 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 43.59% 
+# micro average = 59.14% 
+# macro average = 56.29% 
+[iteration #335] 
+# current cost = 0.62123 
+# train accuracy = 80.95% 
+# ex/s = 591.30 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 54.88% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 55.96% 
+[iteration #336] 
+# current cost = 0.61105 
+# train accuracy = 81.87% 
+# ex/s = 591.89 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.30% 
+[iteration #337] 
+# current cost = 0.61432 
+# train accuracy = 81.59% 
+# ex/s = 579.39 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 43.59% 
+# micro average = 58.90% 
+# macro average = 56.17% 
+[iteration #338] 
+# current cost = 0.62638 
+# train accuracy = 80.95% 
+# ex/s = 611.89 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.54% 
+# macro average = 56.29% 
+[iteration #339] 
+# current cost = 0.60755 
+# train accuracy = 82.10% 
+# ex/s = 689.24 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 64.47% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 58.30% 
+# macro average = 55.46% 
+[iteration #340] 
+# current cost = 0.61686 
+# train accuracy = 81.74% 
+# ex/s = 689.65 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.32% 
+[iteration #341] 
+# current cost = 0.61560 
+# train accuracy = 81.41% 
+# ex/s = 625.61 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 46.15% 
+# micro average = 58.06% 
+# macro average = 55.52% 
+[iteration #342] 
+# current cost = 0.61670 
+# train accuracy = 81.16% 
+# ex/s = 566.98 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 55.35% 
+# current acc for sadness = 46.59% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.04% 
+[iteration #343] 
+# current cost = 0.61073 
+# train accuracy = 81.51% 
+# ex/s = 578.40 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 58.18% 
+# macro average = 55.99% 
+[iteration #344] 
+# current cost = 0.62432 
+# train accuracy = 81.03% 
+# ex/s = 573.10 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.78% 
+# macro average = 56.16% 
+[iteration #345] 
+# current cost = 0.61741 
+# train accuracy = 82.12% 
+# ex/s = 653.15 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.06% 
+# macro average = 55.79% 
+[iteration #346] 
+# current cost = 0.61935 
+# train accuracy = 81.52% 
+# ex/s = 689.43 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 43.59% 
+# micro average = 58.90% 
+# macro average = 56.15% 
+[iteration #347] 
+# current cost = 0.61842 
+# train accuracy = 81.38% 
+# ex/s = 688.87 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.41% 
+[iteration #348] 
+# current cost = 0.61975 
+# train accuracy = 81.72% 
+# ex/s = 689.82 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 46.59% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.14% 
+# macro average = 56.28% 
+[iteration #349] 
+# current cost = 0.60970 
+# train accuracy = 82.06% 
+# ex/s = 682.23 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 43.59% 
+# micro average = 58.78% 
+# macro average = 56.27% 
+[iteration #350] 
+# current cost = 0.61028 
+# train accuracy = 82.12% 
+# ex/s = 602.58 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 48.37% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 65.38% 
+# current acc for fear = 41.03% 
+# micro average = 58.78% 
+# macro average = 56.44% 
+[iteration #351] 
+# current cost = 0.61117 
+# train accuracy = 82.20% 
+# ex/s = 571.86 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 47.44% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 57.59% 
+# macro average = 55.55% 
+[iteration #352] 
+# current cost = 0.60551 
+# train accuracy = 82.43% 
+# ex/s = 584.25 
+--> now validation 
+# current acc for awe = 72.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 47.44% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.54% 
+[iteration #353] 
+# current cost = 0.61069 
+# train accuracy = 81.63% 
+# ex/s = 580.04 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 46.15% 
+# micro average = 58.54% 
+# macro average = 56.29% 
+[iteration #354] 
+# current cost = 0.60725 
+# train accuracy = 81.84% 
+# ex/s = 590.61 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 43.59% 
+# micro average = 57.95% 
+# macro average = 55.51% 
+[iteration #355] 
+# current cost = 0.60103 
+# train accuracy = 82.72% 
+# ex/s = 601.97 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 64.47% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 41.03% 
+# micro average = 58.30% 
+# macro average = 55.28% 
+[iteration #356] 
+# current cost = 0.60478 
+# train accuracy = 82.02% 
+# ex/s = 549.94 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.39% 
+[iteration #357] 
+# current cost = 0.58200 
+# train accuracy = 82.83% 
+# ex/s = 603.55 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 46.15% 
+# micro average = 58.18% 
+# macro average = 55.70% 
+[iteration #358] 
+# current cost = 0.60241 
+# train accuracy = 82.05% 
+# ex/s = 576.08 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 46.59% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 46.15% 
+# micro average = 59.02% 
+# macro average = 56.15% 
+[iteration #359] 
+# current cost = 0.61083 
+# train accuracy = 81.79% 
+# ex/s = 590.94 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.23% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.30% 
+# macro average = 55.92% 
+[iteration #360] 
+# current cost = 0.60487 
+# train accuracy = 82.00% 
+# ex/s = 585.65 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.59% 
+[iteration #361] 
+# current cost = 0.60227 
+# train accuracy = 82.24% 
+# ex/s = 577.14 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 36.11% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 43.59% 
+# micro average = 58.30% 
+# macro average = 56.00% 
+[iteration #362] 
+# current cost = 0.61954 
+# train accuracy = 81.46% 
+# ex/s = 591.13 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 43.59% 
+# micro average = 59.14% 
+# macro average = 56.15% 
+[iteration #363] 
+# current cost = 0.61280 
+# train accuracy = 81.84% 
+# ex/s = 584.14 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 57.69% 
+# current acc for fear = 43.59% 
+# micro average = 58.06% 
+# macro average = 55.20% 
+[iteration #364] 
+# current cost = 0.61204 
+# train accuracy = 81.54% 
+# ex/s = 562.10 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 43.59% 
+# micro average = 58.18% 
+# macro average = 55.57% 
+[iteration #365] 
+# current cost = 0.60532 
+# train accuracy = 81.98% 
+# ex/s = 576.65 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.66% 
+# macro average = 56.05% 
+[iteration #366] 
+# current cost = 0.60392 
+# train accuracy = 82.19% 
+# ex/s = 570.95 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 41.03% 
+# micro average = 58.66% 
+# macro average = 55.47% 
+[iteration #367] 
+# current cost = 0.59830 
+# train accuracy = 82.32% 
+# ex/s = 627.46 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 46.15% 
+# micro average = 58.06% 
+# macro average = 55.99% 
+[iteration #368] 
+# current cost = 0.60576 
+# train accuracy = 82.03% 
+# ex/s = 596.81 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 52.56% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 43.59% 
+# micro average = 58.90% 
+# macro average = 55.99% 
+[iteration #369] 
+# current cost = 0.59242 
+# train accuracy = 82.55% 
+# ex/s = 568.65 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 57.95% 
+# macro average = 55.44% 
+[iteration #370] 
+# current cost = 0.59685 
+# train accuracy = 82.18% 
+# ex/s = 571.57 
+--> now validation 
+# current acc for awe = 66.43% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 46.59% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.10% 
+[iteration #371] 
+# current cost = 0.60427 
+# train accuracy = 82.05% 
+# ex/s = 571.73 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 41.03% 
+# micro average = 57.83% 
+# macro average = 55.01% 
+[iteration #372] 
+# current cost = 0.59454 
+# train accuracy = 82.27% 
+# ex/s = 583.98 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 46.59% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 43.59% 
+# micro average = 59.14% 
+# macro average = 56.07% 
+[iteration #373] 
+# current cost = 0.60211 
+# train accuracy = 82.02% 
+# ex/s = 591.25 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 63.85% 
+# current acc for fear = 43.59% 
+# micro average = 59.38% 
+# macro average = 56.33% 
+[iteration #374] 
+# current cost = 0.60738 
+# train accuracy = 81.88% 
+# ex/s = 616.22 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 46.59% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 46.15% 
+# micro average = 59.26% 
+# macro average = 56.37% 
+[iteration #375] 
+# current cost = 0.58944 
+# train accuracy = 82.92% 
+# ex/s = 588.96 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 58.30% 
+# macro average = 55.62% 
+[iteration #376] 
+# current cost = 0.59937 
+# train accuracy = 82.36% 
+# ex/s = 576.07 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 43.59% 
+# micro average = 58.78% 
+# macro average = 55.78% 
+[iteration #377] 
+# current cost = 0.58758 
+# train accuracy = 82.78% 
+# ex/s = 585.70 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 54.88% 
+# current acc for sadness = 46.59% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 58.54% 
+# macro average = 55.26% 
+[iteration #378] 
+# current cost = 0.59427 
+# train accuracy = 82.80% 
+# ex/s = 554.76 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 56.00% 
+[iteration #379] 
+# current cost = 0.58713 
+# train accuracy = 82.82% 
+# ex/s = 579.82 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.77% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 58.46% 
+# current acc for fear = 46.15% 
+# micro average = 58.06% 
+# macro average = 55.75% 
+[iteration #380] 
+# current cost = 0.60537 
+# train accuracy = 81.81% 
+# ex/s = 553.74 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 58.06% 
+# macro average = 55.36% 
+[iteration #381] 
+# current cost = 0.57910 
+# train accuracy = 83.16% 
+# ex/s = 582.65 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 52.27% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 41.03% 
+# micro average = 57.83% 
+# macro average = 55.21% 
+[iteration #382] 
+# current cost = 0.59196 
+# train accuracy = 82.73% 
+# ex/s = 594.55 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 57.95% 
+# macro average = 55.47% 
+[iteration #383] 
+# current cost = 0.61617 
+# train accuracy = 81.55% 
+# ex/s = 577.43 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 53.95% 
+# current acc for sadness = 46.59% 
+# current acc for excitement = 64.62% 
+# current acc for fear = 43.59% 
+# micro average = 59.38% 
+# macro average = 56.22% 
+[iteration #384] 
+# current cost = 0.59175 
+# train accuracy = 82.73% 
+# ex/s = 586.53 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 46.15% 
+# micro average = 58.30% 
+# macro average = 56.10% 
+[iteration #385] 
+# current cost = 0.58553 
+# train accuracy = 82.67% 
+# ex/s = 586.06 
+--> now validation 
+# current acc for awe = 71.43% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 69.74% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 58.30% 
+# macro average = 56.01% 
+[iteration #386] 
+# current cost = 0.58575 
+# train accuracy = 83.14% 
+# ex/s = 582.96 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 48.37% 
+# current acc for sadness = 50.00% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 57.83% 
+# macro average = 55.41% 
+[iteration #387] 
+# current cost = 0.60159 
+# train accuracy = 81.88% 
+# ex/s = 571.68 
+--> now validation 
+# current acc for awe = 70.71% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 52.09% 
+# current acc for sadness = 44.32% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 43.59% 
+# micro average = 58.78% 
+# macro average = 55.70% 
+[iteration #388] 
+# current cost = 0.58936 
+# train accuracy = 83.23% 
+# ex/s = 572.84 
+--> now validation 
+# current acc for awe = 67.14% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 64.47% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 57.59% 
+# macro average = 54.74% 
+[iteration #389] 
+# current cost = 0.59124 
+# train accuracy = 82.77% 
+# ex/s = 584.02 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 71.68% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 49.30% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 57.95% 
+# macro average = 55.42% 
+[iteration #390] 
+# current cost = 0.59728 
+# train accuracy = 82.64% 
+# ex/s = 584.73 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 46.59% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 46.15% 
+# micro average = 58.90% 
+# macro average = 55.95% 
+[iteration #391] 
+# current cost = 0.59719 
+# train accuracy = 82.35% 
+# ex/s = 602.69 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 43.59% 
+# micro average = 58.18% 
+# macro average = 55.38% 
+[iteration #392] 
+# current cost = 0.59366 
+# train accuracy = 82.84% 
+# ex/s = 559.74 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 51.63% 
+# current acc for sadness = 48.86% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 43.59% 
+# micro average = 58.30% 
+# macro average = 55.42% 
+[iteration #393] 
+# current cost = 0.58266 
+# train accuracy = 82.73% 
+# ex/s = 571.67 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 46.59% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 43.59% 
+# micro average = 58.66% 
+# macro average = 55.61% 
+[iteration #394] 
+# current cost = 0.59125 
+# train accuracy = 82.86% 
+# ex/s = 567.01 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 68.42% 
+# current acc for contentment = 53.02% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 62.31% 
+# current acc for fear = 43.59% 
+# micro average = 59.02% 
+# macro average = 55.97% 
+[iteration #395] 
+# current cost = 0.59235 
+# train accuracy = 83.02% 
+# ex/s = 574.48 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 51.16% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 59.23% 
+# current acc for fear = 43.59% 
+# micro average = 58.06% 
+# macro average = 55.28% 
+[iteration #396] 
+# current cost = 0.58580 
+# train accuracy = 82.72% 
+# ex/s = 582.71 
+--> now validation 
+# current acc for awe = 67.86% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 71.05% 
+# current acc for contentment = 53.49% 
+# current acc for sadness = 46.59% 
+# current acc for excitement = 60.00% 
+# current acc for fear = 43.59% 
+# micro average = 58.78% 
+# macro average = 55.84% 
+[iteration #397] 
+# current cost = 0.58804 
+# train accuracy = 82.80% 
+# ex/s = 582.93 
+--> now validation 
+# current acc for awe = 69.29% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 60.77% 
+# current acc for fear = 43.59% 
+# micro average = 57.71% 
+# macro average = 55.33% 
+[iteration #398] 
+# current cost = 0.59115 
+# train accuracy = 82.91% 
+# ex/s = 570.39 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 48.84% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 63.08% 
+# current acc for fear = 43.59% 
+# micro average = 58.42% 
+# macro average = 55.82% 
+[iteration #399] 
+# current cost = 0.58046 
+# train accuracy = 83.51% 
+# ex/s = 575.32 
+--> now validation 
+# current acc for awe = 68.57% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 67.11% 
+# current acc for contentment = 50.70% 
+# current acc for sadness = 47.73% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 43.59% 
+# micro average = 58.18% 
+# macro average = 55.42% 
+[iteration #400] 
+# current cost = 0.59229 
+# train accuracy = 82.12% 
+# ex/s = 593.70 
+--> now validation 
+# current acc for awe = 70.00% 
+# current acc for anger = 33.33% 
+# current acc for amusement = 70.80% 
+# current acc for disgust = 65.79% 
+# current acc for contentment = 47.91% 
+# current acc for sadness = 51.14% 
+# current acc for excitement = 61.54% 
+# current acc for fear = 43.59% 
+# micro average = 57.95% 
+# macro average = 55.51% 

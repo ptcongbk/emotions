@@ -1,0 +1,14 @@
+[program started on Tue Mar 13 09:09:59 2018] 
+[command line arguments] 
+data /home/cong/Projects/emotion/converttovec/data/train 
+gpu 1 
+train test 
+model /home/cong/Projects/emotion/categorize/new_flickr,epoch=400,lib=cudnn,lock=t,nbiter=400 
+inference true 
+lib nn 
+inception model 
+retrain /home/cong/Projects/emotion/categorize/new_flickr,epoch=400,lib=cudnn,lock=t,nbiter=400 
+[----------------------] 
+now generating embeddings 
+# Embeddings for category 
+# Finish generating embeddings for category 

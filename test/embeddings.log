@@ -1,0 +1,11 @@
+[program started on Mon Mar 12 12:54:54 2018] 
+[command line arguments] 
+data /home/cong/Projects/emotion/convertToVec/data/train 
+gpu 1 
+train test 
+model /home/cong/Projects/emotion/test 
+inference true 
+lib nn 
+inception model 
+retrain /home/cong/Projects/emotion/test 
+[----------------------] 

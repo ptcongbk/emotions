@@ -1,4 +1,5 @@
 import config
+import os
 import re
 from flask import render_template, request, flash
 from wtforms import Form, TextAreaField, validators
@@ -9,6 +10,10 @@ from models import *
 import sys
 import json
 from werkzeug.utils import secure_filename
+from categorize import do_categorize
+from converttovec import do_convert
+from flask import send_file
+
 
 thread = None
 
@@ -149,7 +154,6 @@ def get_tweets():
     tweets = Tweet.query.order_by(Tweet.id.desc()).paginate(page, config.TWEETS_PER_PAGE, error_out=False)
     for x in tweets.items:  # Works
         result.append({"text": x.text, "category": x.category})
-    print result
     json_data = json.dumps(result)
     return json_data
 
@@ -171,9 +175,28 @@ def predict_category():
 def predict_image():
     if request.method == 'POST':
         f = request.files['uploadFile']
-        f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
-        return json.dumps('file uploaded successfully')
+        text = request.form['text']
+        print text
+        with open(config.FOLDER_ABS + '/categorize/newflickrdata/text_test.tok', "w") as text_file:
+            text_file.write(text)
+        f.save(os.path.join(app.config['UPLOAD_FOLDER'], 'image.jpg'))
+        do_convert.convert()
+        do_categorize.categorize()
+        results = []
+        with open(config.FOLDER_ABS + '/categorize/result.txt') as f:
+            lines = f.readlines()
+            lines = lines[:-1]
+            for i in lines:
+                results.append(float(i))
+        with open(config.FOLDER_ABS + '/categorize/result.txt', "w") as text_file:
+            text_file.write('')
+        return json.dumps(results)
+
+@app.route('/get_image')
+def get_image():
+    return send_file(os.path.join(app.config['UPLOAD_FOLDER'], 'image.jpg'), mimetype='image/jpg')
+
 
 if __name__ == '__main__':
     db.create_all()
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')

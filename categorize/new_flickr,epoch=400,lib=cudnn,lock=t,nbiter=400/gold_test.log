@@ -1,0 +1,21 @@
+[program started on Sun Dec 18 16:39:44 2016] 
+[command line arguments] 
+gpu 1 
+lib cudnn 
+inception model 
+data /root/sharedfolder/newflickr/test/ 
+inference true 
+model /root/sharedfolder/exp_output/new_flickr,epoch=400,lib=cudnn,lock=t,nbiter=400/ 
+retrain /root/sharedfolder/exp_output/new_flickr,epoch=400,lib=cudnn,lock=t,nbiter=400/ 
+[----------------------] 
+now testing 
+# accuracy for awe = 0.85897 
+# accuracy for anger = 0.37500 
+# accuracy for amusement = 0.82400 
+# accuracy for disgust = 0.76471 
+# accuracy for contentment = 0.70588 
+# accuracy for sadness = 0.63265 
+# accuracy for excitement = 0.75862 
+# accuracy for fear = 0.53488 
+# micro average = 0.73118 
+# macro average = 0.68184 
