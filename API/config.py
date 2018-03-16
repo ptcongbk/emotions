@@ -9,9 +9,9 @@ POSGRESQL='postgresql://cuongpx:cuongpham@localhost/gbrannotation'
 SQLITE='sqlite://annotation.db'
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))   # refers to application_top
 APP_STATIC = os.path.join(APP_ROOT, 'ml_model')
-FOLDER_ABS= '/home/cong/Projects/emotion'
-CURRENT_FOLDER= '~/Projects/emotion'
-UPLOAD_FOLDER= '/home/cong/Projects/emotion/converttovec/data/train/category/'
+FOLDER_ABS= '/home/cong/gbr_tool'
+CURRENT_FOLDER= '~/gbr_tool'
+UPLOAD_FOLDER= '/home/cong/gbr_tool/converttovec/data/train/category/'
 TWEETS_PER_PAGE = 10
 
 CATEGORY_LIST = ['beach','boat_tour','cruise','fishing_charter','forest','general','hiking',

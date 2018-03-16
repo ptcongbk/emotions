@@ -9,6 +9,7 @@ local opts = paths.dofile('opts.lua')
 local params = opts.load(modeldir)
 
 -- loading target word vocabulary
+print (params.vocab)
 paths.dofile('vocab.lua')
 local vocab = Vocab(params.vocab)
 local vocabsz = vocab:size()

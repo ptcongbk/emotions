@@ -173,6 +173,7 @@ def predict_category():
 
 @app.route('/image', methods=['GET', 'POST'])
 def predict_image():
+    print 'come here'
     if request.method == 'POST':
         f = request.files['uploadFile']
         text = request.form['text']
@@ -199,4 +200,4 @@ def get_image():
 
 if __name__ == '__main__':
     db.create_all()
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0', port=5001)

@@ -3,6 +3,7 @@ local pl = require 'pl'
 
 function Vocab:__init(vocabfile)
   if not paths.filep(vocabfile) then
+
     error(vocabfile .. ' does not exist')
   end
   print(vocabfile)
