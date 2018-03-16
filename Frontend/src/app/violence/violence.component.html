@@ -1,0 +1,109 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-lg-5 col-md-5 col-sm-5">
+        <mat-toolbar class="toolbar">
+          <mat-toolbar-row>
+            <span>Select the image to analyze</span>
+            <i class="fa fa-chevron-down"></i>
+          </mat-toolbar-row>
+        </mat-toolbar>
+        <div class="list-wrap scrb">
+          <mat-grid-list cols="4" rowHeight="100px">
+            <mat-grid-tile
+              *ngFor="let tile of info.imageURLs" 
+              (click)="selectImage(tile)"
+                [colspan]="'2'"
+                [rowspan]="'2'"
+                [style.background]="'url('+tile.url+')'">
+              <div [class]="info.active.a_id == tile.id?'active inner':'inner'">
+                <i class="fa fa-check"></i>
+              </div>
+            </mat-grid-tile>
+          </mat-grid-list>
+        </div>
+    </div>
+    <div class="col-xs-12 col-lg-7 col-md-7 col-sm-7">
+      <mat-toolbar class="toolbar">
+        <mat-toolbar-row>
+          <span>Analysis Results </span>
+          <i class="fa fa-bar-chart"></i>
+        </mat-toolbar-row>
+      </mat-toolbar>
+      <div class="main-content">
+        <div class="right" *ngIf="info.active.status > 0">
+          <svg width="600" height="450" *ngIf="info.mode[0]">
+            <path class="link" d="M0,205C60,205 60,102.5 120,102.5" path="link" style="stroke: rgb(33, 150, 243); opacity: 1;"></path>
+            <path class="link" d="M0,205C60,205 60,307.5 120,307.5" path="link" style="stroke: orange; opacity: 0.1;"></path>
+            <g transform="translate(20,20)"></g>
+            <g class="node" transform="translate(120,307.5)">
+                <circle r="4.34332013130188" style="stroke: black; fill: orange; opacity: 0.1;"></circle>
+                <text x="8.34332013130188" dy="-.60em" text-anchor="start" style="fill-opacity: 1; opacity: 0.1;">No War Violence</text>
+            </g>
+            <g class="node" transform="translate(120,102.5)">
+                <circle r="15.65667986869812" style="stroke: black; fill: rgb(33, 150, 243); opacity: 1;"></circle>
+                <text x="19.65667986869812" dy="-.60em" text-anchor="start" style="fill-opacity: 1; opacity: 1;">War Violence</text>
+            </g>
+            <g class="node" transform="translate(0,205)">
+                <circle r="1" style="stroke: black; fill: rgb(33, 150, 243);"></circle>
+                <text x="-5" dy="-.60em" text-anchor="end" style="fill-opacity: 1;"></text>
+            </g>
+          </svg>
+          <svg width="600" height="450" *ngIf="!info.mode[0]">
+            <path class="link" d="M0,205C60,205 60,102.5 120,102.5" path="link" style="stroke: orange; opacity: 0.1;"></path>
+            <path class="link" d="M0,205C60,205 60,307.5 120,307.5" path="link" style="stroke: rgb(33, 150, 243); opacity: 1;"></path>
+            <g transform="translate(20,20)"></g>
+            <g class="node" transform="translate(120,307.5)">
+                <circle r="19.22643780708313" style="stroke: black; fill: rgb(33, 150, 243); opacity: 1;"></circle>
+                <text x="23.22643780708313" dy="-.60em" text-anchor="start" style="fill-opacity: 1; opacity: 1;">No War Violence</text>
+            </g>
+            <g class="node" transform="translate(120,102.5)">
+                <circle r="0.7735621929168701" style="stroke: black; fill: orange; opacity: 0.1;"></circle>
+                <text x="4.77356219291687" dy="-.60em" text-anchor="start" style="fill-opacity: 1; opacity: 0.1;">War Violence</text>
+            </g>
+            <g class="node" transform="translate(0,205)">
+                <circle r="1" style="stroke: black; fill: rgb(33, 150, 243);"></circle>
+                <text x="-5" dy="-.60em" text-anchor="end" style="fill-opacity: 1;"></text>
+            </g>
+          </svg>
+        </div>
+        <div class="left" *ngIf="info.active.status > 0">
+          <svg width="600" height="450" *ngIf="info.mode[1]">
+            <path class="link" d="M0,205C60,205 60,102.5 120,102.5" path="link" style="stroke: rgb(33, 150, 243); opacity: 1;"></path>
+            <path class="link" d="M0,205C60,205 60,307.5 120,307.5" path="link" style="stroke: orange; opacity: 0.1;"></path>
+            <g transform="translate(20,20)"></g>
+            <g class="node" transform="translate(120,307.5)">
+                <circle r="3" style="stroke: black; fill: orange; opacity: 0.1;"></circle>
+                <text x="8.34332013130188" dy="-.60em" text-anchor="start" style="fill-opacity: 1; opacity: 0.1;">No War Violence</text>
+            </g>
+            <g class="node" transform="translate(120,102.5)">
+                <circle r="15" style="stroke: black; fill: rgb(33, 150, 243); opacity: 1;"></circle>
+                <text x="19.65667986869812" dy="-.60em" text-anchor="start" style="fill-opacity: 1; opacity: 1;">War Violence</text>
+            </g>
+            <g class="node" transform="translate(0,205)">
+                <circle r="1" style="stroke: black; fill: rgb(33, 150, 243);"></circle>
+                <text x="-5" dy="-.60em" text-anchor="end" style="fill-opacity: 1;"></text>
+            </g>
+          </svg>
+          <svg width="600" height="450" *ngIf="!info.mode[1]">
+            <path class="link" d="M0,205C60,205 60,102.5 120,102.5" path="link" style="stroke: orange; opacity: 0.1;"></path>
+            <path class="link" d="M0,205C60,205 60,307.5 120,307.5" path="link" style="stroke: rgb(33, 150, 243); opacity: 1;"></path>
+            <g transform="translate(20,20)"></g>
+            <g class="node" transform="translate(120,307.5)">
+                <circle r="15" style="stroke: black; fill: rgb(33, 150, 243); opacity: 1;"></circle>
+                <text x="23.22643780708313" dy="-.60em" text-anchor="start" style="fill-opacity: 1; opacity: 1;">No Gore</text>
+            </g>
+            <g class="node" transform="translate(120,102.5)">
+                <circle r="3" style="stroke: black; fill: orange; opacity: 0.1;"></circle>
+                <text x="4.77356219291687" dy="-.60em" text-anchor="start" style="fill-opacity: 1; opacity: 0.1;">War Gore</text>
+            </g>
+            <g class="node" transform="translate(0,205)">
+                <circle r="1" style="stroke: black; fill: rgb(33, 150, 243);"></circle>
+                <text x="-5" dy="-.60em" text-anchor="end" style="fill-opacity: 1;"></text>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

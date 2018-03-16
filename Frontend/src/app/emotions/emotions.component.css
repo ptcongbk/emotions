@@ -1,0 +1,114 @@
+.container{
+  max-width: 100% !important
+}
+
+.left-panel{
+  width: 50%;
+  padding-left: 20px;
+  float: left;
+  height: 100vh;
+  border-right:1px solid #ddd;
+}
+.right-panel{
+  width: 50%;
+  float: right;
+  padding: 20px;
+}
+.img-area{
+  height: 300px;
+  width: 100%;
+  padding: 8px;
+  background: rgba(0,0,0,.03);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.header{
+  text-align: center;
+}
+.img-wrapper{
+  width: 100%;
+  height: 100%;
+  /* border: 2px dashed #ddd; */
+  text-align: center;
+}
+.img-wrapper img {
+  height: 200px;
+  max-width: 100%;
+}
+.img-ctrl{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  display: table;
+  margin: 8px;
+  height: 160px;
+  /* border: 1px solid #ddd; */
+  padding: 6px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  background: #ddd;
+}
+.ctrl{
+  float: none;
+  text-align: right;
+  margin-bottom: 5px;
+
+}
+.main-content {
+  box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 5px 8px 0 rgba(0,0,0,.14), 0 1px 14px 0 rgba(0,0,0,.12);
+}
+.output-header{
+  padding: 20px;
+  border-bottom: 1px dot #ddd;
+}
+.ctrl button{
+  width: 20px;
+}
+.file-ctrl{
+  margin: 8px 0;
+}
+.item{
+  text-align: center;
+}
+.item span{
+  font-size: 15px;
+}
+
+.full-width{
+  width: 100%;
+  
+}
+
+.user-input{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  border-bottom: 1px dotted #ddd;
+}
+
+.border-dashed{
+  border: 2px dashed #ddd;
+  margin-bottom: 20px ;
+}
+
+.border-lined{
+  border: 1px solid #ddd;
+  margin-top: 20px ;
+}
+
+.loading-div{
+  width: 100%; height: 100%; 
+  position: absolute; 
+  top:0; 
+  left: 0;
+  text-align: center;
+  background-color: rgba(180, 180, 180, 0.5); /* Black background with opacity */
+    z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer;
+}
+
+.loading-div img{
+  margin: 50vh;
+}
