@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-lg-5 col-md-5 col-sm-5">
+        <mat-toolbar class="toolbar">
+          <mat-toolbar-row>
+            <span>Select the tweet you want to analyze.</span>
+            <i class="fa fa-chevron-down"></i>
+          </mat-toolbar-row>
+        </mat-toolbar>
+      <mat-list class="scr scrb">
+        <mat-list-item *ngFor="let tweet of info.data.listTweets">
+          <button [ngClass]="info.active == tweet ? 'mat-button done act':'mat-button'" (click)="selectTweet(tweet)" mat-button>
+            
+            <p matLine><i class="fa fa-done"></i>{{tweet}}</p>
+          </button>
+        </mat-list-item>
+      </mat-list>
+    </div>
+    <div class="col-xs-12 col-lg-7 col-md-7 col-sm-7">
+      <mat-toolbar class="toolbar">
+        <mat-toolbar-row>
+          <span>Analysis Results </span>
+          <i class="fa fa-bar-chart"></i>
+        </mat-toolbar-row>
+      </mat-toolbar>
+      <div class="main-content">
+        <chart [options]="options"></chart>
+      </div>
+    </div>
+  </div>
+</div>
+

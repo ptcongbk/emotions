@@ -1,0 +1,108 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4 col-lg-4 col-md-4 col-sm-4">
+        <mat-toolbar class="toolbar">
+          <mat-toolbar-row>
+            <span>Select the image to analyze</span>
+            <i class="fa fa-chevron-down"></i>
+          </mat-toolbar-row>
+        </mat-toolbar>
+        <div class="list-wrap scrb">
+          <mat-grid-list cols="4" rowHeight="100px">
+            <mat-grid-tile
+              *ngFor="let tile of info.imageURLs" 
+              (click)="selectImage(tile)"
+                [colspan]="'2'"
+                [rowspan]="'2'"
+                [style.background]="'url('+tile.url+')'">
+              <div [class]="info.active.a_id == tile.id?'active inner':'inner'">
+                <i class="fa fa-check"></i>
+              </div>
+            </mat-grid-tile>
+          </mat-grid-list>
+        </div>
+    </div>
+    <div class="col-xs-8 col-lg-8 col-md-8 col-sm-8">
+      <mat-toolbar class="toolbar">
+        <mat-toolbar-row>
+          <span>Analysis Results </span>
+          <i class="fa fa-bar-chart"></i>
+        </mat-toolbar-row>
+      </mat-toolbar>
+      <div class="main-content" [style.height]="info.active.status==1?'auto':'75vh'">
+        <mat-spinner *ngIf="!info.active.status"></mat-spinner>
+        <div class="result" *ngIf="info.active.status==1">
+          <div class="result-main-img">
+            <img class="img-rs img-responsive" [src]="info.active.result.url" alt="">
+          </div>
+          <div class="hn-wrapper">
+            <h4>Faces Emotions</h4>
+            <div class="row hn-face">
+              <div class="col-md-12 col-sm-12 col-xs-12 hn-faces" *ngFor="let face of info.active.result.faces">
+                <div style="min-width:50px">
+                  <img class="img-responsive" [src]="face.url" alt="" style="display: inline;max-height:50px" >
+                </div>
+                <span [style.opacity]="0.2+face.emotions.happiness" class="hn-sp" [matTooltip]="'happiness:'+face.emotions.happiness" >
+                  <img class="emoji" alt="😃" src="https://twemoji.maxcdn.com/2/72x72/1f603.png">
+                </span>
+                <span [style.opacity]="0.2+face.emotions.surprise" class="hn-sp" [matTooltip]="'surprise:'+face.emotions.happiness" >
+                  <img class="emoji" alt="😮" src="https://twemoji.maxcdn.com/2/72x72/1f62e.png">
+                </span>
+                <span [style.opacity]="0.2+face.emotions.neutral" class="hn-sp" [matTooltip]="'neutral:'+face.emotions.happiness" >
+                  <img class="emoji" alt="😐" src="https://twemoji.maxcdn.com/2/72x72/1f610.png">
+                </span>
+                <span [style.opacity]="0.2+face.emotions.sadness" class="hn-sp" [matTooltip]="'sadness:'+face.emotions.happiness" >
+                  <img class="emoji" alt="😞" src="https://twemoji.maxcdn.com/2/72x72/1f61e.png">
+                </span>
+                <span [style.opacity]="0.2+face.emotions.fear" class="hn-sp" [matTooltip]="'fear:'+face.emotions.happiness" >
+                  <img class="emoji" alt="😨" src="https://twemoji.maxcdn.com/2/72x72/1f628.png">
+                </span>
+                <span [style.opacity]="0.2+face.emotions.anger" class="hn-sp" [matTooltip]="'anger:'+face.emotions.happiness" >
+                  <img class="emoji" alt="😠" src="https://twemoji.maxcdn.com/2/72x72/1f620.png">
+                </span>
+              </div>
+            </div>
+            <div layout="row" class="row hn-facebottom">
+              <span class="">
+                <span>
+                  <img class="emoji" alt="😃" src="https://twemoji.maxcdn.com/2/72x72/1f603.png">
+                </span>
+                <span style="margin-right:20px">happiness</span>
+              </span>
+              <span class="">
+                <span>
+                  <img class="emoji" alt="😮" src="https://twemoji.maxcdn.com/2/72x72/1f62e.png">
+                </span>
+                <span style="margin-right:20px">surprise</span>
+              </span>
+              <span class="">
+                <span>
+                  <img class="emoji" alt="😐" src="https://twemoji.maxcdn.com/2/72x72/1f610.png">
+                </span>
+                <span style="margin-right:20px">neutral</span>
+              </span>
+              <span class="">
+                <span>
+                  <img class="emoji" alt="😞" src="https://twemoji.maxcdn.com/2/72x72/1f61e.png">
+                </span>
+                <span style="margin-right:20px">sadness</span>
+              </span>
+              <span class="">
+                <span>
+                  <img class="emoji" alt="😨" src="https://twemoji.maxcdn.com/2/72x72/1f628.png">
+                </span>
+                <span style="margin-right:20px">fear</span>
+              </span>
+              <span class="">
+                <span>
+                  <img class="emoji" alt="😠" src="https://twemoji.maxcdn.com/2/72x72/1f620.png">
+                </span>
+                <span style="margin-right:20px">anger</span>
+              </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

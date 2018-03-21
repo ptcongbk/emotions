@@ -1,0 +1,50 @@
+.toolbar{
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+}
+mat-toolbar-row{
+  background-color: #E91E63  ;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+mat-toolbar-row i{
+  font-size: 24px;
+  padding: 5px 5px 5px 10px;
+}
+.main-content{
+  height: 75vh;
+  box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 5px 8px 0 rgba(0,0,0,.14), 0 1px 14px 0 rgba(0,0,0,.12);
+}
+.scr{
+  max-height: 75vh;
+  overflow-y: scroll;
+  box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 5px 8px 0 rgba(0,0,0,.14), 0 1px 14px 0 rgba(0,0,0,.12);
+}
+.scr button{
+  width: 100%;
+  text-align: left;
+}
+.scr button.act{
+  background: #80CBC4;
+}
+.scrb::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scrb::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.scrb::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
