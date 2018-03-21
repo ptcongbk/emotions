@@ -13,7 +13,7 @@ from werkzeug.utils import secure_filename
 from categorize import do_categorize
 from converttovec import do_convert
 from flask import send_file
-
+import urllib
 
 thread = None
 
@@ -180,17 +180,45 @@ def predict_image():
         with open(config.FOLDER_ABS + '/categorize/newflickrdata/text_test.tok', "w") as text_file:
             text_file.write(text)
         f.save(os.path.join(app.config['UPLOAD_FOLDER'], 'image.jpg'))
-        do_convert.convert()
-        do_categorize.categorize()
-        results = []
-        with open(config.FOLDER_ABS + '/categorize/result.txt') as f:
-            lines = f.readlines()
-            lines = lines[:-1]
-            for i in lines:
-                results.append(float(i))
-        with open(config.FOLDER_ABS + '/categorize/result.txt', "w") as text_file:
-            text_file.write('')
-        return json.dumps(results)
+        return run_algorithm()
+
+@app.route('/sample_image', methods=['GET', 'POST'])
+def predict_image_sample():
+    if request.method == 'POST':
+
+        url = request.form['url']
+        print url
+        text = request.form['text']
+        print text
+        with open(config.FOLDER_ABS + '/categorize/newflickrdata/text_test.tok', "w") as text_file:
+            text_file.write(text)
+        urllib.urlretrieve(url, os.path.join(app.config['UPLOAD_FOLDER'], 'image.jpg'))
+        return run_algorithm()
+
+def run_algorithm():
+    do_convert.predict_byimage()
+    do_convert.convert()
+    do_categorize.categorize()
+    results = []
+    resultsForImage = []
+    with open(config.FOLDER_ABS + '/categorize/result.txt') as f:
+        lines = f.readlines()
+        lines = lines[:-1]
+        for i in lines:
+            results.append(float(i))
+    with open(config.FOLDER_ABS + '/converttovec/result.txt') as f:
+        lines = f.readlines()
+        lines = lines[:-1]
+        for i in lines:
+            resultsForImage.append(float(i))
+
+    with open(config.FOLDER_ABS + '/categorize/result.txt', "w") as text_file:
+        text_file.write('')
+    with open(config.FOLDER_ABS + '/converttovec/result.txt', "w") as text_file:
+        text_file.write('')
+    finalresult = {"results": results, "imageResults": resultsForImage}
+    return json.dumps(finalresult)
+
 
 @app.route('/get_image')
 def get_image():
