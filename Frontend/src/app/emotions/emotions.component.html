@@ -3,11 +3,11 @@
     <img src="https://loading.io/spinners/gear-set/lg.triple-gears-loading-icon.gif" />
   </div>
   <div class="left-panel">
-    <div layout="row" class="file-ctrl">
-      <!-- <button class="mat-raised-button" color="warn" type="button" aria-label="remove all files" (click)="closeImg()">
+    <!-- <div layout="row" class="file-ctrl">
+       <button class="mat-raised-button" color="warn" type="button" aria-label="remove all files" (click)="closeImg()">
             <i class="fa fa-trash-o fa-2x" aria-hidden="true"></i>
             <span> Remove</span>
-          </button> -->
+          </button> 
       <button class="mat-raised-button mat-primary mat-button mat-ink-ripple" color="primary" type="button" (click)="showImageUploadForm()">
         <i class="fa fa-folder-open-o fa-2x" aria-hidden="true"></i>
         <span> Browse</span>
@@ -17,8 +17,8 @@
         <i class="fa fa-cubes" aria-hidden="true"></i>
         <div class="mat-ripple-container"></div>
       </button>
-    </div>
-    <div layout="row" class="user-input border-dashed" style="width: 80%; margin-left:0px;">
+    </div> -->
+    <div layout="row" class="user-input border-dashed" style="width: 95%; margin-left:0px;margin-top: 20px">
       <form #form class="full-width">
         <mat-form-field class="full-width">
           <textarea [(ngModel)]="info.userInput" name="userInput" matInput placeholder="Type a text:"></textarea>
@@ -34,8 +34,19 @@
         <button mat-button mat-raised-button color="warn" (click)="uploadImage()">OK</button>
       </form>
     </div>
-
-
+    <div layout="row">
+      <h4>Example</h4>
+      <ul class="sample-list">
+        <li  *ngFor="let item of sampleDatas">
+          <a (click)="loadSample(item.sample.id)">
+            <span>
+              <img src="{{item.sample.url}}" />
+            </span>
+            <span>{{item.sample.text}}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 
   <div class="right-panel">
@@ -61,9 +72,8 @@
         <div style="clear:both"></div>
         <b>Emotion:</b>
         <div class="emotions row" style="clear:both">
-          <div *ngFor="let option of info.options " class="item col-md-6 col-sm-6 col-xs-12">
-            <p>{{option.principal.main}}</p>
-            <img [src]=" 'assets/emotions/'+option.principal.main+ '.gif' " [ngStyle]="{ 'opacity':option.principal.opacity}
+          <div *ngFor="let option of info.options " style="width:252px;float: left;">
+            <img width="32px" style="margin-left:107px;" [src]=" 'assets/emotions/'+option.principal.main+ '.gif' " [ngStyle]="{ 'opacity':option.principal.opacity}
         " alt=" ">
             <chart [options]="option.op " (load)="reload($event.context) "></chart>
           </div>

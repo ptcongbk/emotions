@@ -3,14 +3,14 @@
 }
 
 .left-panel{
-  width: 50%;
+  width: 40%;
   padding-left: 20px;
   float: left;
   height: 100vh;
   border-right:1px solid #ddd;
 }
 .right-panel{
-  width: 50%;
+  width: 60%;
   float: right;
   padding: 20px;
 }
@@ -111,4 +111,23 @@
 
 .loading-div img{
   margin: 50vh;
+}
+
+.sample-list{
+  list-style-type: none; 
+  padding: 10px
+}
+.sample-list li{
+ clear: both;
+ border-bottom: 1px dotted #ddd;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ font-size: 14px;
+ color: gray;
+}
+.sample-list a{
+  cursor: pointer;
+}
+.sample-list img{
+  width: 64px;
 }

@@ -9,17 +9,29 @@ import 'rxjs/add/operator/map';
 export class EmotionService {
 
   constructor(private _http: Http) { }
-  private _url = 'http://18.217.170.62:500/image';
+  private _url = 'http://192.168.1.39:5000/';
   uploadFile(data?: any) {
     const headers = this.setHeadersForUpLoadFile();
     const options = new RequestOptions({
       method: RequestMethod.Post,
-      url: this._url,
+      url: this._url + 'image',
       headers: headers,
       body: data
     });
     return this.execute(options);
   }
+
+  calculateSample(data?: any) {
+    const headers = this.setHeadersForUpLoadFile();
+    const options = new RequestOptions({
+      method: RequestMethod.Post,
+      url: this._url + 'sample_image',
+      headers: headers,
+      body: data
+    });
+    return this.execute(options);
+  }
+
 
   getHeadersForUpLoadFile() {
     return this.setHeadersForUpLoadFile();
