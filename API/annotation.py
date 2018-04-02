@@ -14,7 +14,9 @@ from categorize import do_categorize
 from converttovec import do_convert
 from flask import send_file
 import urllib
-
+from categorizeText import do_categorize_text
+import string
+import random
 thread = None
 
 clf = joblib.load(os.path.join(config.APP_STATIC, 'gbr_multi_label.pkl'))
@@ -105,6 +107,17 @@ def start_thread_in_views():
         thread.daemon = True
         thread.start()
 
+@app.after_request
+def add_header(r):
+    """
+    Add headers to both force latest IE rendering engine or Chrome Frame,
+    and also to cache the rendered page for 10 minutes.
+    """
+    r.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+    r.headers["Pragma"] = "no-cache"
+    r.headers["Expires"] = "0"
+    r.headers['Cache-Control'] = 'public, max-age=0'
+    return r
 
 def manual_test():
     form = ReusableForm(request.form)
@@ -178,6 +191,8 @@ def predict_image():
         f = request.files['uploadFile']
         text = request.form['text']
         print text
+        with open(config.FOLDER_ABS + '/categorizeText/test.txt', "w") as text_file:
+            text_file.write(text)
         with open(config.FOLDER_ABS + '/categorize/newflickrdata/text_test.tok', "w") as text_file:
             text_file.write(text)
         f.save(os.path.join(app.config['UPLOAD_FOLDER'], 'image.jpg'))
@@ -191,12 +206,15 @@ def predict_image_sample():
         print url
         text = request.form['text']
         print text
+        with open(config.FOLDER_ABS + '/categorizeText/test.txt', "w") as text_file:
+            text_file.write(text)
         with open(config.FOLDER_ABS + '/categorize/newflickrdata/text_test.tok', "w") as text_file:
             text_file.write(text)
         urllib.urlretrieve(url, os.path.join(app.config['UPLOAD_FOLDER'], 'image.jpg'))
         return run_algorithm()
 
 def run_algorithm():
+    textResults = do_categorize_text.categorize()
     do_convert.predict_byimage()
     do_convert.convert()
     do_categorize.categorize()
@@ -214,16 +232,17 @@ def run_algorithm():
             resultsForImage.append(float(i))
 
     with open(config.FOLDER_ABS + '/categorize/result.txt', "w") as text_file:
-        text_file.write('')
+        text_file.write(''),
     with open(config.FOLDER_ABS + '/converttovec/result.txt', "w") as text_file:
         text_file.write('')
-    finalresult = {"results": results, "imageResults": resultsForImage}
+    finalresult = {"results": results, "imageResults": resultsForImage, "textResults": textResults}
     return json.dumps(finalresult)
 
 
 @app.route('/get_image')
 def get_image():
-    return send_file(os.path.join(app.config['UPLOAD_FOLDER'], 'image.jpg'), mimetype='image/jpg')
+    filename = ''.join(random.choice(string.ascii_uppercase + string.digits))
+    return send_file(os.path.join(app.config['UPLOAD_FOLDER'], 'image.jpg'),attachment_filename='image'+ filename +'.jpg', mimetype='image/jpg')
 
 
 if __name__ == '__main__':

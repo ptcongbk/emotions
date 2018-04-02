@@ -13,6 +13,10 @@ from werkzeug.utils import secure_filename
 from categorize import do_categorize
 from converttovec import do_convert
 from flask import send_file
+from categorizeText import do_categorize_text
 
+labels = do_categorize_text.categorize()
+print labels
 
-do_convert.predict_byimage()
+#do_convert.convert()
+#do_categorize.categorize()
