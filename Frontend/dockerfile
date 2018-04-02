@@ -20,6 +20,6 @@ RUN npm install @angular/cli@1.5.0  --unsafe
 
 # add app
 COPY . /usr/src/app
-
+EXPOSE 4444
 # start app
 CMD ng serve --host 0.0.0.0
