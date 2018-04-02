@@ -50,7 +50,7 @@ export function highchartsFactory() {
   const hcm = require('highcharts/highcharts-more'); // used for more category of charts
   //const exporting: any = require('highcharts/modules/exporting');
   hcm(hc);
-  highchartsHeatmap(hc);
+  //highchartsHeatmap(hc);
   //exporting(hc);
   return hc;
 }
