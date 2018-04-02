@@ -1,7 +1,14 @@
 version: '3.0'
 
 services:
-  emotion-fe: # name of the first service
-    build: . # specify the directory of the Dockerfile
+
+  emotion-fe:
+    container_name: emotion-fe
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/usr/src/app'
+      - '/usr/src/app/node_modules'
     ports:
-      - "4444:4444" # specify port forewarding
+      - '4444:4444'
