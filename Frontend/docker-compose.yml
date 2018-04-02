@@ -2,6 +2,6 @@ version: '3.0'
 
 services:
   emotion-fe: # name of the first service
-    build: frontend # specify the directory of the Dockerfile
+    build: . # specify the directory of the Dockerfile
     ports:
       - "4444:4444" # specify port forewarding
