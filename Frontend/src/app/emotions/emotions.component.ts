@@ -37,38 +37,59 @@ export class EmotionsComponent implements OnInit {
       {
         "sample": {
           id: 1,
-          url: 'https://images-na.ssl-images-amazon.com/images/I/71A2Gu5R7aL._SX425_.jpg',
-          text: 'Absolutely stunning toy'
+          url: 'http://farm8.staticflickr.com/7185/6865018980_cf85ee418b_z.jpg',
+          text: 'Postcard for my own amusement.'
         }
       },
       {
         "sample": {
           id: 2,
-          url: 'https://i.ytimg.com/vi/3-97rjdbHoo/maxresdefault.jpg',
-          text: 'Those are swords not knives'
+          url: 'http://farm8.staticflickr.com/7566/15828956450_066991b9de_z.jpg',
+          text: 'March for justice for victims of police violence.'
         }
       },
       {
         "sample": {
           id: 3,
-          url: 'https://img3.goodfon.com/wallpaper/big/e/35/danboard-danbo-box-robot-toy.jpg',
-          text: 'Broken heart'
+          url: 'http://farm8.staticflickr.com/7170/6783525229_84712fb108_z.jpg',
+          text: 'I was in awe standing under this giant structure, hope you enjoy the view too!'
         }
       },
       {
         "sample": {
           id: 4,
-          url: 'https://images-na.ssl-images-amazon.com/images/I/81g8LWaWFHL._SL1500_.jpg',
-          text: 'Happy and funny'
+          url: 'http://farm9.staticflickr.com/8322/7985178629_2765a6179a_z.jpg',
+          text: 'I love the quietness and contentment of the picture'
         }
       },
       {
         "sample": {
           id: 5,
-          url: 'https://images-na.ssl-images-amazon.com/images/I/41ZzcetJl6L._SX355_.jpg',
-          text: 'A lot of blood'
+          url: 'http://farm9.staticflickr.com/8065/8218149521_c93d73e960_z.jpg',
+          text: 'The former fear of nuclear war shown in a graffiti'
         }
-      }
+      },
+      {
+        "sample": {
+          id: 6,
+          url: 'http://farm6.staticflickr.com/5319/14245424704_c5633c9264_z.jpg',
+          text: 'Everyday comes with new hope excitement happiness and sorrow...... Live the life with full compassion and make some memorable moments....Enjoy life'
+        }
+      },
+      {
+        "sample": {
+          id: 7,
+          url: 'http://farm5.staticflickr.com/4154/4845488208_582d9e3ae7_z.jpg',
+          text: 'This was so disgusting, we captured a bunch of flies and then fed them popcorn, sausage and chicken.... they got so fat and sick they couldn\'t fly.'
+        }
+      },
+      {
+        "sample": {
+          id: 8,
+          url: 'http://farm8.staticflickr.com/7243/7385093896_3893a95745_z.jpg',
+          text: 'Sadness, Plan d\'Aups, Sainte-Baume, Provence, France.'
+        }
+      },
 
     ]
 
@@ -87,8 +108,8 @@ export class EmotionsComponent implements OnInit {
       // TODO
       // setInterval(() => {
       this.info.active.status = 1;
-      this.info.active.imageURL = 'https://c1.staticflickr.com/6/5095/5488630940_1c1e245877_n.jpg';
-      this.info.active.text = 'Absolutely stunning image';
+      this.info.active.imageURL = 'http://farm3.staticflickr.com/2947/15177392630_e7886cd9f7_z.jpg';
+      this.info.active.text = 'Absolutely amazing race';
       this.info.active.outputData = {
         fusion: {
           amusement: 0.19914210758124126,
@@ -230,7 +251,7 @@ export class EmotionsComponent implements OnInit {
     var text = this.info.userInput;
     const result = await this._emotionService.uploadFile(formData).toPromise();
     var body = JSON.parse(result._body);
-    this.displayResult(text, body);
+    this.displayResult(text, '', body);
   }
 
   fileChange(event) {
@@ -266,17 +287,19 @@ export class EmotionsComponent implements OnInit {
     var text = item.sample.text;
     const result = await this._emotionService.calculateSample(formData).toPromise();
     var body = JSON.parse(result._body);
-    this.displayResult(text, body);
+    this.displayResult(text, item.sample.url, body);
   }
   reload(e) {
     console.log(e);
   }
 
-  displayResult(text, body) {
+  displayResult(text, url, body) {
     var total = 0;
     var totalImage = 0;
+    var totalText = 0;
     var fusionResult = body.results;
     var imageResult = body.imageResults;
+    var textResult = body.textResults;
     fusionResult.forEach(element => {
       if (element > 0) total = total + element;
     });
@@ -285,10 +308,19 @@ export class EmotionsComponent implements OnInit {
       if (element > 0) totalImage = totalImage + element;
     });
 
+    textResult.forEach(element => {
+      if (element > 0) totalText = totalText + element;
+    });
+
     this.closeImg();
     this.info.active.status = 1;
-    this.info.active.imageURL = '';
-    this.info.active.imageURL = 'http://192.168.1.39:5000/get_image?_t=' + new Date().getTime();
+    if(url == ''){
+      this.info.active.imageURL = 'http://18.217.170.62:5001/get_image?_t=' + new Date().getTime();
+    }
+    else{
+      this.info.active.imageURL = url;
+    }
+    //this.info.active.imageURL = 'http://192.168.1.39:5001/get_image?_t=' + new Date().getTime();
     this.info.active.text = text;
     this.info.isCalculating = false;
     this.info.active.outputData = {
@@ -312,7 +344,17 @@ export class EmotionsComponent implements OnInit {
         fear: (imageResult[6] > 0 ? imageResult[6] : 0) / totalImage,
         sadness: (imageResult[7] > 0 ? imageResult[7] : 0) / totalImage,
       }
-
+      ,
+      text: {
+        amusement: (textResult[0] > 0 ? textResult[0] : 0) / totalText,
+        anger: (textResult[1] > 0 ? textResult[1] : 0) / totalText,
+        awe: (textResult[2] > 0 ? textResult[2] : 0) / totalText,
+        contentment: (textResult[3] > 0 ? textResult[3] : 0) / totalText,
+        disgust: (textResult[4] > 0 ? textResult[4] : 0) / totalText,
+        excitement: (textResult[5] > 0 ? textResult[5] : 0) / totalText,
+        fear: (textResult[6] > 0 ? textResult[6] : 0) / totalText,
+        sadness: (textResult[7] > 0 ? textResult[7] : 0) / totalText,
+      }
     };
     const outputData = this.info.active.outputData;
     for (const key in outputData) {

@@ -9,7 +9,8 @@ import 'rxjs/add/operator/map';
 export class EmotionService {
 
   constructor(private _http: Http) { }
-  private _url = 'http://192.168.1.39:5000/';
+  private _url = 'http://18.217.170.62:5001/';
+  //private _url = 'http://192.168.1.39:5001/';
   uploadFile(data?: any) {
     const headers = this.setHeadersForUpLoadFile();
     const options = new RequestOptions({

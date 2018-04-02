@@ -18,7 +18,7 @@
         <div class="mat-ripple-container"></div>
       </button>
     </div> -->
-    <div layout="row" class="user-input border-dashed" style="width: 95%; margin-left:0px;margin-top: 20px">
+    <div layout="row" class="user-input border-dashed" style="width: 95%; margin-left:0px;margin-top: 20px;display:none">
       <form #form class="full-width">
         <mat-form-field class="full-width">
           <textarea [(ngModel)]="info.userInput" name="userInput" matInput placeholder="Type a text:"></textarea>
@@ -37,12 +37,14 @@
     <div layout="row">
       <h4>Example</h4>
       <ul class="sample-list">
-        <li  *ngFor="let item of sampleDatas">
+        <li *ngFor="let item of sampleDatas">
           <a (click)="loadSample(item.sample.id)">
-            <span>
-              <img src="{{item.sample.url}}" />
-            </span>
-            <span>{{item.sample.text}}</span>
+            <div class="post-container">
+              <div class="post-thumb">
+                <img src="{{item.sample.url}}" alt="" />
+              </div>
+              <div class="post-content">{{item.sample.text}}</div>
+            </div>
           </a>
         </li>
       </ul>
@@ -66,7 +68,7 @@
                 <mat-icon aria-label="cansel">cancel</mat-icon>
               </button>
             </div>
-            <img [src]="info.active.imageURL" alt="">
+            <img [src]="info.active.imageURL" alt="" />
           </div>
         </div>
         <div style="clear:both"></div>
