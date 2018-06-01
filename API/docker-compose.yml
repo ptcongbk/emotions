@@ -1,9 +1,10 @@
+version: '3'
 
-web:
-  build: .
-  container_name: emotion-api
-  ports:
-    - "5000:5000"
-
-  volumes:
-    - .:/emotion-api
+services: 
+  emotion-api:
+    build: .
+    container_name: "emotion-api"
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/emotion-api

@@ -1,8 +1,11 @@
-FROM ubuntu:latest
-RUN apt-get update -y
-RUN apt-get install -y python-pip python-dev build-essential
-COPY . /app
-WORKDIR /app
+FROM python:2.7         
+ADD . /emotion-api
+WORKDIR /emotion-api
+
+ENV PATH /root/torch/install/bin:$PATH
+ENV PATH /root/torch/install/bin:$PATH
 RUN pip install -r requirements.txt
-ENTRYPOINT ["python"]
-CMD ["annotation.py"]
+ENTRYPOINT ["python", "annotation.py"]
+
+#docker cp ~/torch emotion-api:/root/torch
+

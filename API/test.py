@@ -15,8 +15,8 @@ from converttovec import do_convert
 from flask import send_file
 from categorizeText import do_categorize_text
 
-labels = do_categorize_text.categorize()
-print labels
+# labels = do_categorize_text.categorize()
+# print(labels)
 
-#do_convert.convert()
-#do_categorize.categorize()
+do_convert.convert()
+do_categorize.categorize()

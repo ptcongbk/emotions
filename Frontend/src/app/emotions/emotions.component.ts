@@ -37,57 +37,59 @@ export class EmotionsComponent implements OnInit {
       {
         "sample": {
           id: 1,
-          url: 'http://farm8.staticflickr.com/7185/6865018980_cf85ee418b_z.jpg',
-          text: 'Postcard for my own amusement.'
+          url: 'http://greginhollywood.com/wordpress/wp-content/uploads/CQwypIRWcAA0bnr2-400x277.jpg',
+          text: 'Bathing in blood as part of a Satanic ritual'
         }
       },
       {
         "sample": {
           id: 2,
-          url: 'http://farm8.staticflickr.com/7566/15828956450_066991b9de_z.jpg',
-          text: 'March for justice for victims of police violence.'
+          url: 'http://i.dailymail.co.uk/i/pix/2014/12/03/23B52C7F00000578-2859336-A_study_of_1_601_pupils_aged_10_and_11_in_Wales_found_that_six_p-a-3_1417626285523.jpg',
+          text: 'e-cigarettes are acting as a nicotine gateway for children luring them to back to more harmful cigarettes.'
         }
       },
       {
         "sample": {
           id: 3,
-          url: 'http://farm8.staticflickr.com/7170/6783525229_84712fb108_z.jpg',
-          text: 'I was in awe standing under this giant structure, hope you enjoy the view too!'
+          url: 'https://c1.staticflickr.com/3/2159/2199623217_b4130478d3.jpg',
+          text: 'Bad, disgust cartoon for kids.'
         }
       },
+      
       {
         "sample": {
           id: 4,
-          url: 'http://farm9.staticflickr.com/8322/7985178629_2765a6179a_z.jpg',
-          text: 'I love the quietness and contentment of the picture'
-        }
-      },
-      {
-        "sample": {
-          id: 5,
           url: 'http://farm9.staticflickr.com/8065/8218149521_c93d73e960_z.jpg',
           text: 'The former fear of nuclear war shown in a graffiti'
         }
       },
       {
         "sample": {
+          id: 5,
+          url: 'https://i.pinimg.com/originals/f0/55/e8/f055e8d73e9fd715afe7d50644cb8ba6.jpg',
+          text: 'Psycho Killer Clown with blood knife'
+        }
+      },
+     
+      {
+        "sample": {
           id: 6,
-          url: 'http://farm6.staticflickr.com/5319/14245424704_c5633c9264_z.jpg',
-          text: 'Everyday comes with new hope excitement happiness and sorrow...... Live the life with full compassion and make some memorable moments....Enjoy life'
+          url: 'https://c1.staticflickr.com/3/2516/3920475759_26a624d975_b.jpg',
+          text: 'Please ,do not cut my head.'
         }
       },
       {
         "sample": {
           id: 7,
-          url: 'http://farm5.staticflickr.com/4154/4845488208_582d9e3ae7_z.jpg',
-          text: 'This was so disgusting, we captured a bunch of flies and then fed them popcorn, sausage and chicken.... they got so fat and sick they couldn\'t fly.'
+          url: 'http://bloody-disgusting.com/wp-content/uploads/2014/02/scarebears5.jpg',
+          text: 'Terrify children with this scare bears'
         }
       },
       {
         "sample": {
           id: 8,
-          url: 'http://farm8.staticflickr.com/7243/7385093896_3893a95745_z.jpg',
-          text: 'Sadness, Plan d\'Aups, Sainte-Baume, Provence, France.'
+          url: 'https://c1.staticflickr.com/3/2650/4012108085_f75b5e5837_b.jpg',
+          text: 'This one kind of freaked me out!'
         }
       },
 
@@ -108,38 +110,38 @@ export class EmotionsComponent implements OnInit {
       // TODO
       // setInterval(() => {
       this.info.active.status = 1;
-      this.info.active.imageURL = 'http://farm3.staticflickr.com/2947/15177392630_e7886cd9f7_z.jpg';
-      this.info.active.text = 'Absolutely amazing race';
+      this.info.active.imageURL = 'https://i.pinimg.com/originals/52/b1/cb/52b1cb83b522a1f636149cd9b02d2168.jpg';
+      this.info.active.text = 'Why do a lot of people find the gory, graphic torture and violence scenes in horror films pleasurable to watch?';
       this.info.active.outputData = {
         fusion: {
-          amusement: 0.19914210758124126,
+          amusement: 0.1,
           anger: 0,
-          awe: 0.6530361348882634,
+          awe: 0.1530361348882634,
           contentment: 0.1478217575304954,
-          disgust: 0,
+          disgust: 0.2478217575304954,
           excitement: 0,
           fear: 0,
-          sadness: 0,
+          sadness: 0.4478217575304954,
         },
         image: {
           amusement: 0.011600000000000001,
           anger: 0.0024000000000000002,
-          awe: 0.9347000000000001,
+          awe: 0.0347000000000001,
           contentment: 0.0033000000000000004,
-          disgust: 0.015600000000000001,
-          excitement: 0.012500000000000002,
-          fear: 0.017300000000000003,
+          disgust: 0.15600000000000001,
+          excitement: 0.112500000000000002,
+          fear: 0.417300000000000003,
           sadness: 0.0026000000000000003,
         },
         text: {
-          amusement: 0.8,
-          anger: 0,
-          awe: 0.4,
+          amusement: 0,
+          anger: 0.6,
+          awe: 0.1,
           contentment: 0,
           disgust: 0,
-          excitement: 0.3,
+          excitement: 0,
           fear: 0,
-          sadness: 0,
+          sadness: 0.3,
         }
       };
 
@@ -315,7 +317,7 @@ export class EmotionsComponent implements OnInit {
     this.closeImg();
     this.info.active.status = 1;
     if(url == ''){
-      this.info.active.imageURL = 'http://18.217.170.62:5001/get_image?_t=' + new Date().getTime();
+      this.info.active.imageURL = 'http://51.15.59.131:5000/get_image?_t=' + new Date().getTime();
     }
     else{
       this.info.active.imageURL = url;
